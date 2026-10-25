@@ -1,0 +1,42 @@
+name: Trade Marks Journal
+
+on:
+  schedule:
+    - cron: '17 21 * * *'   # every day 02:47 IST; new journals come out weekly
+  workflow_dispatch:
+    inputs:
+      test:
+        description: 'Only test IP India access (no data saved)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: journal
+  cancel-in-progress: false
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - name: PHP version
+        run: php -v && php -m | grep -E -i 'curl|mbstring|zlib'
+      - name: Test IP India access
+        if: ${{ inputs.test }}
+        run: php scripts/run.php --test
+      - name: Read new journals
+        if: ${{ !inputs.test }}
+        run: php scripts/run.php
+      - name: Save data
+        if: ${{ !inputs.test }}
+        run: |
+          git config user.name "journal-robot"
+          git config user.email "journal-robot@users.noreply.github.com"
+          git add data
+          git commit -m "Journal data $(date -u +%Y-%m-%d)" || echo "nothing new"
+          git pull --rebase --quiet || true
+          git push
