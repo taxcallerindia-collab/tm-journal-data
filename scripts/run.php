@@ -16,9 +16,9 @@ const HOST = 'https://search.ipindia.gov.in';
 const LIST_URL = HOST . '/IPOJournal/Journal/Trademark';
 const VIEW_URL = HOST . '/IPOJournal/Journal/ViewJournal';
 const BACK = 104;                // also import the 104 journals before the first one seen (about 2 years)
-const MAX_JOURNALS = 8;          // per run (stops earlier at TIME_LIMIT)
+const MAX_JOURNALS = 12;         // per run (stops earlier at TIME_LIMIT)
 const READER_REV = 3;            // bump when the reader improves: older journals are read again
-const TIME_LIMIT = 4 * 3600;     // GitHub allows 6 hours per job; a journal takes up to ~1 hour
+const TIME_LIMIT = 13000; // runs every 4 hours; GitHub allows 6 hours per job
 
 $root = dirname(__DIR__);
 $dataDir = $root . '/data';
