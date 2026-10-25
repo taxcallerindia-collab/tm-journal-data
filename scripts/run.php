@@ -32,7 +32,8 @@ function say(string $s): void { echo '[' . gmdate('H:i:s') . '] ' . $s . "\n"; }
 function http(string $url, array $opt = []): array
 {
     $ch = curl_init($url);
-    curl_setopt_array($ch, $opt + [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_MAXREDIRS => 4, CURLOPT_CONNECTTIMEOUT => 30,
+    $toFile = isset($opt[CURLOPT_FILE]);
+    curl_setopt_array($ch, $opt + ($toFile ? [] : [CURLOPT_RETURNTRANSFER => true]) + [ CURLOPT_FOLLOWLOCATION => true, CURLOPT_MAXREDIRS => 4, CURLOPT_CONNECTTIMEOUT => 30,
         CURLOPT_TIMEOUT => 180, CURLOPT_ENCODING => '', CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36',
         CURLOPT_HTTPHEADER => ['Accept: text/html,application/pdf;q=0.9,*/*;q=0.8', 'Accept-Language: en-IN,en;q=0.8']]);
     $body = curl_exec($ch);
@@ -70,7 +71,7 @@ function download(string $fileName, string $dest): string
     for ($try = 1; $try <= 3; $try++) {
         $fh = fopen($dest, 'wb');
         [$code, , $err] = http(VIEW_URL, [CURLOPT_POST => true, CURLOPT_POSTFIELDS => http_build_query(['FileName' => $fileName]), CURLOPT_FILE => $fh,
-            CURLOPT_RETURNTRANSFER => false, CURLOPT_TIMEOUT => 900, CURLOPT_REFERER => LIST_URL]);
+            CURLOPT_TIMEOUT => 900, CURLOPT_REFERER => LIST_URL]);
         fclose($fh);
         $head = (string)@file_get_contents($dest, false, null, 0, 5);
         if ($code === 200 && $head === '%PDF-' && filesize($dest) > 2000) return '';
