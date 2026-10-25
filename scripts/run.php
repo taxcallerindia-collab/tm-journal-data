@@ -25,6 +25,7 @@ $indexFile = $dataDir . '/index.json';
 $index = is_file($indexFile) ? (json_decode((string)file_get_contents($indexFile), true) ?: []) : [];
 $index += ['journals' => [], 'first' => 0, 'last_check' => '', 'last_error' => '', 'latest_on_ipindia' => null];
 $test = in_array('--test', $argv, true);
+$debug = (int)(getenv('TMJ_DEBUG') ?: 0); // journal number: dump page text for checking the reader
 $t0 = time();
 
 function say(string $s, bool $note = false): void
@@ -134,6 +135,32 @@ try {
 }
 $index['latest_on_ipindia'] = ['no' => $list[0]['no'], 'date' => $list[0]['date'], 'files' => count($list[0]['files'])];
 say('IP India reachable. Latest journal ' . $list[0]['no'] . ' (' . $list[0]['date'] . '), ' . count($list[0]['files']) . ' PDF files, ' . count($list) . ' journals listed', true);
+
+if ($debug) {
+    $j = null; foreach ($list as $x) if ($x['no'] === $debug) $j = $x;
+    if (!$j) { say("journal $debug not listed", true); exit(1); }
+    @mkdir($root . '/debug', 0777, true);
+    $out = '';
+    foreach (array_slice($j['files'], 0, 2) as $f) {
+        $tmp = sys_get_temp_dir() . '/tmj-dbg.pdf';
+        if (($e = download($f, $tmp)) !== '') { $out .= "$f: $e\n"; continue; }
+        $pdf = tmp_open($tmp); $pages = tmp_pages($pdf); $out .= "=== $f: " . count($pages) . " pages, " . filesize($tmp) . " bytes\n";
+        $logoShown = 0;
+        foreach ($pages as $i => $pg) {
+            $cells = tmp_page_cells($pdf, $pg); $r = tmj_record($cells);
+            $isLogo = $r && ($r['name'] === '' && !$r['name_pending']);
+            if ($i < 14 || ($isLogo && $logoShown++ < 6)) {
+                $out .= "--- page " . ($i + 1) . ($r ? ' record ' . json_encode(['app' => $r['app_no'], 'name' => $r['name'], 'class' => $r['class'], 'pending' => $r['name_pending']]) : ' no record') . "\n";
+                foreach ($cells as $c) $out .= sprintf("%6.1f %6.1f %s\n", $c['y'], $c['x0'], mb_substr($c['t'], 0, 140));
+            }
+            if ($i > 400) break;
+        }
+        tmp_close($pdf); @unlink($tmp);
+    }
+    file_put_contents($root . '/debug/' . $debug . '.txt', $out);
+    say('debug written', true);
+    exit(0);
+}
 
 if ($test) {
     $tmp = sys_get_temp_dir() . '/tmj-test.pdf';
