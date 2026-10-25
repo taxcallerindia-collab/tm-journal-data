@@ -23,7 +23,7 @@ function tmj_record(array $cells, float $width = 595.0): ?array
     $cells = tmj_clean_cells($cells);
     if (!$cells) return null;
     $txt = tmp_cells_text($cells);
-    if (!preg_match('~Application\s*Number\s*:?\s*(\d{4,9})~i', $txt, $m)) return null;
+    if (!preg_match('~Application\s*Number\s*:?\s*(\d{4,9})~i', $txt, $m)) return tmj_record_classic($cells);
     $r = ['app_no' => $m[1], 'journal' => preg_match('~Journal\s*Number\s*:?\s*(\d{3,5})~i', $txt, $j) ? $j[1] : '', 'filed_on' => '',
         'name' => '', 'class' => '', 'applicant' => '', 'goods' => '', 'address' => '', 'used' => '', 'type' => '', 'juris' => '', 'name_pending' => false, 'name_y' => null];
     if (preg_match('~\b(\d{2})-(\d{2})-(\d{4})\b~', $txt, $d)) $r['filed_on'] = $d[3] . '-' . $d[2] . '-' . $d[1];
@@ -101,4 +101,51 @@ function tmj_continuation(array $cells): string
     $cells = tmj_clean_cells($cells);
     if (!$cells || preg_match('~Application\s*Number~i', tmp_cells_text($cells))) return '';
     return mb_substr(trim((string)preg_replace('~\s+~u', ' ', implode(' ', array_column($cells, 't')))), 0, 190);
+}
+
+/**
+ * Classic journal layout (most journals before Oct 2026): no labels, fixed order of lines.
+ *   Trade Marks Journal No: 2280 , 28/09/2026 Class 1
+ *   FEIYANG                                  <- the mark (missing when it is a logo)
+ *   5906141 24/04/2023                       <- application number and filing date
+ *   SATYAMS POLY TRADELINK PRIVATE LIMITED   <- applicant
+ *   address lines …, type of applicant
+ *   Address for service in India/Agents address: + agent lines (optional)
+ *   Used Since :01/09/2022  |  Proposed to be Used
+ *   AHMEDABAD                                <- Registry office
+ *   goods / services …
+ */
+function tmj_record_classic(array $cells): ?array
+{
+    $lines = []; $ys = [];
+    foreach (preg_split('~\n~', tmp_cells_text($cells)) as $i => $l) { $l = trim(str_replace("\t", ' ', $l)); if ($l !== '') $lines[] = $l; }
+    // y of each joined line (first cell on that baseline)
+    $prev = null; foreach ($cells as $c) { if ($prev === null || abs($c['y'] - $prev) > max(1.5, $c['s'] * 0.3)) $ys[] = $c['y']; $prev = $c['y']; }
+    $h = -1; $k = -1; $journal = ''; $class = '';
+    foreach ($lines as $i => $l) {
+        if ($h < 0 && preg_match('~Trade\s*Marks\s*Journal\s*No\s*:?\s*(\d{3,5})\s*,?\s*\d{2}/\d{2}/\d{4}\s*Class\s*(\d{1,2})~i', $l, $m)) { $h = $i; $journal = $m[1]; $class = $m[2]; continue; }
+        if ($h >= 0 && preg_match('~^(\d{5,9})\s+(\d{2})/(\d{2})/(\d{4})$~', $l, $m)) { $k = $i; $app = $m[1]; $filed = $m[4] . '-' . $m[3] . '-' . $m[2]; break; }
+    }
+    if ($h < 0 || $k < 0) return null;
+    $r = ['app_no' => $app, 'journal' => $journal, 'filed_on' => $filed, 'name' => '', 'class' => $class, 'applicant' => $lines[$k + 1] ?? '', 'goods' => '', 'address' => '',
+        'used' => '', 'type' => '', 'juris' => '', 'name_pending' => false, 'name_y' => ($ys[$h] ?? null) !== null ? $ys[$h] - 1 : null];
+    $r['name'] = mb_substr(trim(implode(' ', array_slice($lines, $h + 1, $k - $h - 1))), 0, 190);
+    $a = -1; $u = -1;
+    for ($i = $k + 2, $n = count($lines); $i < $n; $i++) {
+        if ($a < 0 && stripos($lines[$i], 'Address for service') === 0) $a = $i;
+        if (preg_match('~^(Used\s*Since|Proposed\s*to\s*be\s*Used)~i', $lines[$i])) { $u = $i; break; }
+    }
+    if ($u < 0) return $r;
+    $stop = $a >= 0 ? $a : $u;
+    if ($stop - 1 > $k + 1) { $r['type'] = $lines[$stop - 1]; $r['address'] = implode(', ', array_slice($lines, $k + 2, $stop - $k - 3)); }
+    $r['used'] = preg_match('~Used\s*Since\s*:?\s*(\S.*)$~i', $lines[$u], $m) ? 'Used since ' . trim($m[1]) : 'Proposed to be Used';
+    $r['juris'] = $lines[$u + 1] ?? '';
+    if (!preg_match('~^[A-Z][A-Z .]{2,30}$~', $r['juris'])) { $r['juris'] = ''; $g0 = $u + 1; } else $g0 = $u + 2;
+    $goods = [];
+    foreach (array_slice($lines, $g0) as $l) {
+        if (preg_match('~^(THIS IS CONDITION|CONDITION|PRIORITY|ASSOCIATED|Advertised|Registration of this trade ?mark|Trade Marks Journal No)~i', $l)) break;
+        $goods[] = $l;
+    }
+    $r['goods'] = trim(implode(' ', $goods));
+    return $r;
 }
