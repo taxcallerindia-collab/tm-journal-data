@@ -195,6 +195,20 @@
             "csv": "journals/2270.csv.gz",
             "bytes": 787928,
             "done_at": "2026-10-25T16:47:58+00:00"
+        },
+        {
+            "no": 2269,
+            "rev": 4,
+            "date": "13/07/2026",
+            "marks": 4571,
+            "logos": 522,
+            "logo_names": 2535,
+            "pages": 5250,
+            "files": 4,
+            "errors": [],
+            "csv": "journals/2269.csv.gz",
+            "bytes": 668217,
+            "done_at": "2026-10-25T16:59:17+00:00"
         }
     ],
     "first": 2283,
