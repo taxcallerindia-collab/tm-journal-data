@@ -7,7 +7,7 @@
 declare(strict_types=1);
 
 const TMJ_LABELS = [
-    'address' => 'Applicant\s*Address', 'applicant' => 'Proprietor/Applicant', 'type' => 'Type\s*of\s*Applicant', 'class' => '(?<![a-z])Class',
+    'address' => 'Applicant\s*Address', 'agent' => 'Address\s*for\s*Service|Attorney|Agent', 'applicant' => 'Proprietor/Applicant', 'type' => 'Type\s*of\s*Applicant', 'class' => '(?<![a-z])Class',
     'goods' => 'Description\s*of', 'used' => 'Used\s*Since', 'juris' => 'Jurisdiction', 'cond' => 'Condition\s*And', 'assoc' => 'Associated\s*Marks',
     'name' => 'Advertised\s*Trade\s*Mark',
 ];
@@ -25,7 +25,7 @@ function tmj_record(array $cells, float $width = 595.0): ?array
     $txt = tmp_cells_text($cells);
     if (!preg_match('~Application\s*Number\s*:?\s*(\d{4,9})~i', $txt, $m)) return tmj_record_classic($cells);
     $r = ['app_no' => $m[1], 'journal' => preg_match('~Journal\s*Number\s*:?\s*(\d{3,5})~i', $txt, $j) ? $j[1] : '', 'filed_on' => '',
-        'name' => '', 'class' => '', 'applicant' => '', 'goods' => '', 'address' => '', 'used' => '', 'type' => '', 'juris' => '', 'name_pending' => false, 'name_y' => null];
+        'name' => '', 'class' => '', 'applicant' => '', 'goods' => '', 'address' => '', 'agent' => '', 'used' => '', 'type' => '', 'juris' => '', 'name_pending' => false, 'name_y' => null];
     if (preg_match('~\b(\d{2})-(\d{2})-(\d{4})\b~', $txt, $d)) $r['filed_on'] = $d[3] . '-' . $d[2] . '-' . $d[1];
 
     $top = null;
@@ -127,7 +127,7 @@ function tmj_record_classic(array $cells): ?array
         if ($h >= 0 && preg_match('~^(\d{5,9})\s+(\d{2})/(\d{2})/(\d{4})$~', $l, $m)) { $k = $i; $app = $m[1]; $filed = $m[4] . '-' . $m[3] . '-' . $m[2]; break; }
     }
     if ($h < 0 || $k < 0) return null;
-    $r = ['app_no' => $app, 'journal' => $journal, 'filed_on' => $filed, 'name' => '', 'class' => $class, 'applicant' => $lines[$k + 1] ?? '', 'goods' => '', 'address' => '',
+    $r = ['app_no' => $app, 'journal' => $journal, 'filed_on' => $filed, 'name' => '', 'class' => $class, 'applicant' => $lines[$k + 1] ?? '', 'goods' => '', 'address' => '', 'agent' => '',
         'used' => '', 'type' => '', 'juris' => '', 'name_pending' => false, 'name_y' => ($ys[$h] ?? null) !== null ? $ys[$h] - 1 : null];
     $r['name'] = mb_substr(trim(implode(' ', array_slice($lines, $h + 1, $k - $h - 1))), 0, 190);
     $a = -1; $u = -1;
@@ -138,6 +138,7 @@ function tmj_record_classic(array $cells): ?array
     if ($u < 0) return $r;
     $stop = $a >= 0 ? $a : $u;
     if ($stop - 1 > $k + 1) { $r['type'] = $lines[$stop - 1]; $r['address'] = implode(', ', array_slice($lines, $k + 2, $stop - $k - 3)); }
+    if ($a >= 0 && $a + 1 < $u) $r['agent'] = $lines[$a + 1];
     $r['used'] = preg_match('~Used\s*Since\s*:?\s*(\S.*)$~i', $lines[$u], $m) ? 'Used since ' . trim($m[1]) : 'Proposed to be Used';
     $r['juris'] = $lines[$u + 1] ?? '';
     if (!preg_match('~^[A-Z][A-Z .]{2,30}$~', $r['juris'])) { $r['juris'] = ''; $g0 = $u + 1; } else $g0 = $u + 2;

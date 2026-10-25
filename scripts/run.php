@@ -17,7 +17,7 @@ const LIST_URL = HOST . '/IPOJournal/Journal/Trademark';
 const VIEW_URL = HOST . '/IPOJournal/Journal/ViewJournal';
 const BACK = 104;                // also import the 104 journals before the first one seen (about 2 years)
 const MAX_JOURNALS = 12;         // per run (stops earlier at TIME_LIMIT)
-const READER_REV = 3;            // bump when the reader improves: older journals are read again
+const READER_REV = 4;            // bump when the reader improves: older journals are read again
 const TIME_LIMIT = 13000; // runs every 4 hours; GitHub allows 6 hours per job
 
 $root = dirname(__DIR__);
@@ -215,9 +215,9 @@ foreach (array_slice($todo, 0, MAX_JOURNALS) as $j) {
     $csv = 'journals/' . $j['no'] . '.csv.gz';
     $gz = gzopen($dataDir . '/' . $csv, 'wb9');
     $out = fopen('php://memory', 'w+');
-    fputcsv($out, ['app_no', 'name', 'class', 'applicant', 'goods', 'filed_on', 'journal_no', 'journal_date', 'used_since', 'jurisdiction', 'name_from', 'app_type'], ',', '"', '');
+    fputcsv($out, ['app_no', 'name', 'class', 'applicant', 'goods', 'filed_on', 'journal_no', 'journal_date', 'used_since', 'jurisdiction', 'name_from', 'app_type', 'address', 'agent'], ',', '"', '');
     foreach ($all as $r) fputcsv($out, [$r['app_no'], $r['name'], $r['class'], mb_substr($r['applicant'], 0, 250), mb_substr($r['goods'], 0, 600), $r['filed_on'],
-        $r['journal'] ?: (string)$j['no'], $j['date'], mb_substr($r['used'], 0, 60), mb_substr($r['juris'], 0, 40), $r['name_from'] ?? 'text', mb_substr((string)($r['type'] ?? ''), 0, 60)], ',', '"', '');
+        $r['journal'] ?: (string)$j['no'], $j['date'], mb_substr($r['used'], 0, 60), mb_substr($r['juris'], 0, 40), $r['name_from'] ?? 'text', mb_substr((string)($r['type'] ?? ''), 0, 60), mb_substr((string)($r['address'] ?? ''), 0, 300), mb_substr((string)($r['agent'] ?? ''), 0, 120)], ',', '"', '');
     rewind($out);
     gzwrite($gz, (string)stream_get_contents($out));
     gzclose($gz); fclose($out);
