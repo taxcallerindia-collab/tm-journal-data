@@ -225,6 +225,11 @@ foreach (array_slice($todo, 0, MAX_JOURNALS) as $j) {
         'errors' => $fileErr, 'csv' => $csv, 'bytes' => filesize($dataDir . '/' . $csv), 'done_at' => gmdate('c')];
     save_index($indexFile, $index);
     say('Journal ' . $j['no'] . ': saved ' . count($all) . " marks ($logoNames read from logos), $logos logos without readable text" . ($fileErr ? ', problems: ' . implode('; ', $fileErr) : ''), true);
+    // Push each journal as soon as it is read, so the website gets data during long backlog runs.
+    if (getenv('GITHUB_ACTIONS')) {
+        $q = escapeshellarg($root);
+        shell_exec("cd $q && git config user.name journal-robot && git config user.email journal-robot@users.noreply.github.com && git add data && git commit -q -m " . escapeshellarg('Journal ' . $j['no']) . " && (git pull -q --rebase || true) && git push -q 2>&1");
+    }
 }
 $index['last_error'] = $errors ? implode('; ', $errors) . ' (' . gmdate('Y-m-d H:i') . ' UTC)' : '';
 save_index($indexFile, $index);
