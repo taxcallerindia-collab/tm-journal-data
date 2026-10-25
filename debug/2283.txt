@@ -323,7 +323,7 @@
  668.3  276.4 ववगग 1
  638.8  257.8 CLASS 1
   27.1  291.9 11
---- page 12 record {"app":"2490710","name":"XTEND","class":"1","pending":false}
+--- page 12 record {"app":"2490710","name":"XTEND","class":"1","pending":false,"ocr":null,"imgs":null}
  778.7   49.8 आवेदन सं या/Application Number: 2490710
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -357,7 +357,7 @@
  451.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
  386.8  236.5 XTEND
   27.1  291.9 12
---- page 13 record {"app":"5249900","name":"","class":"1","pending":false}
+--- page 13 record {"app":"5249900","name":"","class":"1","pending":false,"ocr":"SIHNAG WNGS","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im21","x":253.8620745,"top":387.9717485,"w":86.42568607200002,"h":12.603745885500002}]}
  778.7   49.8 आवेदन सं या/Application Number: 5249900
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -396,7 +396,7 @@
  449.8   50.4 Associated Marks Details
  417.4   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  291.9 13
---- page 14 record {"app":"5249902","name":"","class":"1","pending":false}
+--- page 14 record {"app":"5249902","name":"","class":"1","pending":false,"ocr":"TIP EMICEH MOCO","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im28","x":240.65815050000003,"top":387.9717485,"w":112.83353459400001,"h":14.404281012000002}]}
  778.7   49.8 आवेदन सं या/Application Number: 5249902
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -435,7 +435,7 @@
  449.8   50.4 Associated Marks Details
  417.4   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  291.9 14
---- page 15 record {"app":"5637956","name":"","class":"1","pending":false}
+--- page 15 record {"app":"5637956","name":"","class":"1","pending":false,"ocr":"KARIGAR","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im35","x":175.2387075,"top":363.96461300000004,"w":243.67241985975002,"h":156.0463774065}]}
  778.7   49.8 आवेदन सं या/Application Number: 5637956
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -474,7 +474,7 @@
  428.8  216.7 Application No. : 5179931; Class : 1
  393.4   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  291.9 15
---- page 19 record {"app":"5895632","name":"","class":"1","pending":false}
+--- page 19 record {"app":"5895632","name":"","class":"1","pending":false,"ocr":"VAY","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im57","x":219.05172825,"top":368.76604025,"w":156.04637749349996,"h":156.04637749349996}]}
  778.7   49.8 आवेदन सं या/Application Number: 5895632
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -514,7 +514,7 @@
  427.6   50.4 Restriction
  398.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  291.9 19
---- page 20 record {"app":"5961123","name":"","class":"1","pending":false}
+--- page 20 record {"app":"5961123","name":"","class":"1","pending":false,"ocr":"& UNIC ASACHEM FIAIEREOGINEES","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im64","x":241.85850675,"top":131.09540300000003,"w":110.43282109200001,"h":68.420334807}]}
  778.7   49.8 आवेदन सं या/Application Number: 5961123
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -575,7 +575,7 @@
  189.9   50.4 Restriction
  160.5   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  291.9 20
---- page 23 record {"app":"5977239","name":"","class":"1","pending":false}
+--- page 23 record {"app":"5977239","name":"","class":"1","pending":false,"ocr":"CB PAYAL ML GROUP","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im81","x":153.0321075,"top":427.58352125,"w":288.085620195,"h":107.43192921750001}]}
  778.7   49.8 आवेदन सं या/Application Number: 5977239
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -609,7 +609,7 @@
  486.4  216.7 No. 539622.
  457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  291.9 23
---- page 24 record {"app":"5984117","name":"","class":"1","pending":false}
+--- page 24 record {"app":"5984117","name":"","class":"1","pending":false,"ocr":"BE NELSON POLYTEGH","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im88","x":153.0321075,"top":379.569251,"w":288.0856201905,"h":129.638529075}]}
  778.7   49.8 आवेदन सं या/Application Number: 5984117
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -654,7 +654,7 @@
  438.4  216.7 a whole and no right is granted over NP..
  409.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  291.9 24
---- page 26 record {"app":"6011563","name":"","class":"1","pending":false}
+--- page 26 record {"app":"6011563","name":"","class":"1","pending":false,"ocr":"EARTH AGRARIAN SAVIOR","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im100","x":219.05172825,"top":422.782094,"w":156.04637749349996,"h":156.04637749349996}]}
  778.7   49.8 आवेदन सं या/Application Number: 6011563
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -688,6 +688,709 @@
  481.6   50.4 Restriction
  452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  291.9 26
+--- page 28 record {"app":"6144569","name":"","class":"1","pending":false,"ocr":"QA","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im112","x":252.6617175,"top":364.56479149999996,"w":89.42657794950001,"h":90.62693470050002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6144569
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 11-10-2023
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 BHARAT AGRO AND PRODUCTION PVT LTD
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 SAWANT PLAZA, S. No. 21/2, FLAT 5, PUNE SATARA ROAD, DHANKAWADI, PUNE
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 CITY, PUNE – 411 043
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: FERTILIZERS, PLANTS NUTRIENTS. ORGANIC. PLANT GROWTH REGULATING
+ 552.4  216.8 PREPARATIONS, ARTIFICIAL AND NATURAL MANURES, ORGANIC, INORGANIC BIO
+ 541.6  216.8 FERTILIZERS AND CHEMICALS AND FORESTRY, POTDNG SOIL, SOIL CONDITIONING
+ 539.2   50.1 वव तुु का िववरण/ Description of
+ 530.8  216.8 PREPARATIONS, AGRICULTURE,HORTICULTURE AND FORESTRY, POTDNG SOIL, SOIL
+ 527.8   50.4 Goods/Services
+ 520.0  216.8 CONDITIONING PREPARATIONS, AGRICULTURE SUBSTRATES FOR SOIL FREE
+ 509.2  216.7 GROWING, UREA, MICRO NUTRIENT SOIL, ADDITIVES CHEMICAL TO FUNGICIDES.
+ 485.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 485.8  216.7 02/10/2023
+ 467.8   57.0 े ािधकार / Jurisdiction
+ 466.0  216.7 MUMBAI
+ 446.2  216.7 This is condition of registration that label shall be used together. No exclusive right
+ 440.8   50.1 शशत और ितबंध / Condition And
+ 434.8  216.7 over the term Bharat appearing in the applied mark and the mark will be used as a
+ 429.4   50.4 Restriction
+ 423.4  216.7 whole..
+ 394.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 28
+--- page 30 record {"app":"6185918","name":"","class":"1","pending":false,"ocr":"GI CHEMAZON","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im124","x":206.44798275,"top":379.569251,"w":181.25386940100003,"h":49.21462679100001}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6185918
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 15-11-2023
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 CHEMAZON LABORATORIES LTD
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 119-107 Thode Ave, Saskatoon, SK, S7W 1E9, Canada
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.7 Class 1: Chemical catalysts for use in methanol synthesis plant operation, chemical catalysts
+ 552.4  216.7 for use in synthesis gas and olefin purification, synthesis gas catalysts for use in ammonia
+ 541.6  216.7 manufacture and plant operation, nitrogen compounds, hydrocarbon compounds, thermoplastic
+ 539.2   50.1 वव तुु का िववरण/ Description of
+ 530.8  216.7 compounds, organometallic compounds, organophosphorus compounds, chemical extenders,
+ 527.8   50.4 Goods/Services
+ 520.0  216.7 chemical additives, chemical accelerants, peptides for industrial purposes, hydroxyethyl
+ 509.2  216.7 methylcellulose, chemicals for use in industry
+ 485.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 485.8  216.7 03/10/2022
+ 467.8   57.0 े ािधकार / Jurisdiction
+ 467.8  216.7 CHENNAI
+ 449.8   50.1 शशत और ितबंध / Condition And
+ 444.4  216.7 N/A
+ 438.4   50.4 Restriction
+ 409.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 30
+--- page 41 record {"app":"6294747","name":"","class":"1","pending":false,"ocr":"MICE I GLYCERIN","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im181","x":265.86564225,"top":422.782094,"w":62.418551085,"h":156.046377522}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6294747
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 09-02-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 SIMMI GUJRAL TRADING AS NICE PHARMACEUTICALS
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 KHASRA NO. 57/4, MIN EAST IN THE REVENUE ESTATEOF VILLAGE RAM NAGAR,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 TEHSIL GANNAUR, DISTT. SONEPAT-131101 (HR.)
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: Glycerine esters; Glycerin for industrial purposes; Glycerine for industrial use &
+ 560.8   50.1 वव तुु का िववरण/ Description of
+ 552.4  216.7 Glycerine for use in manufacture.
+ 549.4   50.4 Goods/Services
+ 529.0   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 529.0  216.7 02/12/2009
+ 511.0   57.0 े ािधकार / Jurisdiction
+ 511.0  216.7 DELHI
+ 493.0   50.1 शशत और ितबंध / Condition And
+ 487.6  216.7 MARK SHALL BE USED AS A WHOLE.
+ 481.6   50.4 Restriction
+ 452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 41
+--- page 42 record {"app":"6302079","name":"","class":"1","pending":false,"ocr":"","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im188","x":192.04370175,"top":417.38048825,"w":210.66260976,"h":156.04637767650001}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6302079
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 14-02-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 SOMESHWAR CORPORATION LLP
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 GROUND FLOOR, SURVEY NO. 190/2, AT JUNGVAD, RAJKOT BHAVNAGAR
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 HIGHWAY, JANGVAD, RAJKOT GJ IN 360040
+ 599.2  216.7 Limited Liability Partnership(LLP)
+ 598.0   50.1 आआवेदक ककाा कार / Type of Applicant
+ 578.8   50.1 ववग/Class
+ 578.8  216.7 1
+ 560.8   50.1 वव तुु का िववरण/ Description of
+ 557.8  216.7 Class 1: fertilizers and chemicals for agricultural use as included in class 1
+ 549.4   50.4 Goods/Services
+ 531.4   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 531.4  216.7 Proposed to be Used
+ 513.4   57.0 े ािधकार / Jurisdiction
+ 509.8  216.7 AHMEDABAD
+ 487.6   50.1 शशत और ितबंध / Condition And
+ 482.2  216.7 N/A
+ 476.2   50.4 Restriction
+ 446.8   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 42
+--- page 43 record {"app":"6303871","name":"","class":"1","pending":false,"ocr":"OF","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im195","x":219.05172825,"top":393.97353200000003,"w":156.046377645,"h":156.046377645}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6303871
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 15-02-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 FARMFLOW INNOVATIONS PVT. LTD.
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 305, 3rd Floor, Narayan Chamber, Bhekrai Nagar, Hadapsar, Pune – 412308.
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: Fertilisers, Organic fertilisers, Liquid fertilisers, Bio-fertilizer, Biofertilizers,
+ 552.4  216.8 Growingmedia, fertilizers for use in agriculture, horticulture and forestry, except fungicides,
+ 550.0   50.1 वव तुु का िववरण/ Description of
+ 541.6  216.7 weedkillers, herbicides, insecticides and parasiticides, Organic manure, Manure for
+ 538.6   50.4 Goods/Services
+ 530.8  216.7 agriculture, Fertilizers and manures.
+ 507.4   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 507.4  216.7 Proposed to be Used
+ 489.4   57.0 े ािधकार / Jurisdiction
+ 489.4  216.7 MUMBAI
+ 471.4  216.7 Registration of this mark shall give no right to the exclusive use of the terms separately
+ 467.8   50.1 शशत और ितबंध / Condition And
+ 460.0  216.7 and mark shall be used as whole..
+ 456.4   50.4 Restriction
+ 423.4   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 43
+--- page 44 record {"app":"6304115","name":"","class":"1","pending":false,"ocr":"ESSENTIAL BOOST","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im202","x":177.03924225,"top":324.95301874999996,"w":240.07135020000004,"h":90.62693470050002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6304115
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 15-02-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6  216.7 MR. MALAYKUMAR DHIRAJLAL PATHAK; TRADING AS: M/S ENDEAVOUR
+ 641.2   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 635.2  216.7 INDUSTRIES
+ 617.2   54.6 व वधधााररी/आवेदेदक का पतता/
+ 617.2  216.7 BHAGWATI CHOWK, MANEKPARA, NEAR PATEL FLOOR MILL, AMRELI - 365601,
+ 605.8   50.4 Proprietor/Applicant Address
+ 605.8  216.7 GUJARAT
+ 587.8   50.1 आआवेदक ककाा कार / Type of Applicant
+ 587.8  216.7 Single Firm
+ 569.8   50.1 ववग/Class
+ 569.8  216.7 1
+ 551.8  216.7 Class 1: CHEMICALS FOR USE IN INDUSTRY, SCIENCE, AS WELL AS IN AGRICULTURE,
+ 541.0  216.8 HORTICULTURE, COMPOSITIONS AND FORESTRY; AGRICULTURAL CHEMICALS,
+ 530.2  216.8 EXCEPT FUNGICIDES, HERBICIDES, INSECTICIDES AND PARASITICIDES; COMPOST,
+ 519.4  216.8 MANURES, FERTILIZERS; BIOLOGICAL PREPARATIONS FOR USE IN INDUSTRY AND
+ 508.6  216.8 SCIENCE; FERTILIZING PREPARATIONS / FERTILISING PREPARATIONS; GYPSUM FOR
+ 506.2   50.1 वव तुु का िववरण/ Description of
+ 497.8  216.8 USE AS A FERTILIZER; NITROGENOUS FERTILIZERS / NITROGENOUS FERTILISERS;
+ 494.8   50.4 Goods/Services
+ 487.0  216.8 ORGANIC
+ 487.0  263.8 DIGESTATE
+ 487.0  318.5 [FERTILIZER]
+ 487.0  377.5 /
+ 487.0  391.6 ORGANIC
+ 487.0  438.6 DIGESTATE
+ 487.0  493.3 [FERTILISER];
+ 476.2  216.8 SUPERPHOSPHATES
+ 476.2  310.9 [FERTILIZERS]
+ 476.2  377.5 /
+ 476.2  393.8 SUPERPHOSPHATES
+ 476.2  487.9 [FERTILISERS];
+ 465.4  216.8 AMMONIUM NITRATE; ADDITIVES, CHEMICAL, TO INSECTICIDES / CHEMICAL ADDITIVES
+ 454.6  216.7 TO INSECTICIDES.
+ 431.2   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 431.2  216.7 Proposed to be Used
+ 413.2   57.0 े ािधकार / Jurisdiction
+ 413.2  216.7 AHMEDABAD
+ 395.2   50.1 शशत और ितबंध / Condition And
+ 389.8  216.7 N/A
+ 383.8   50.4 Restriction
+ 354.4   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 44
+--- page 45 record {"app":"6306473","name":"","class":"1","pending":false,"ocr":"TARGET WONDER STONE CARE SOLUTIONS Y","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im209","x":223.252977,"top":401.1756725,"w":147.64388037300003,"h":148.2440587485}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6306473
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 16-02-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 RAKESH KUMAR PROPRIETOR OF M/S. ROYAL TRADING CO
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 GROUND FLOOR, G-8, SUNNY MART, NEW ATISHI MARKET SUNNY MART, NEAR
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 PNB BANK, GOPLPURA, Jaipur, Jaipur, Rajasthan, 302020
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: Chemicals used in industry, science and photography, as well as in agriculture,
+ 552.4  216.7 horticulture and forestry; Unprocessed artificial resins, unprocessed plastics; Manures; Fire
+ 550.0   50.1 वव तुु का िववरण/ Description of
+ 541.6  216.7 extinguishing compositions; Tempering and soldering preparations; Chemical substances for
+ 538.6   50.4 Goods/Services
+ 530.8  216.7 preserving foodstuffs; Tanning substances; Adhesives used in industry
+ 507.4   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 507.4  216.7 Proposed to be Used
+ 489.4   57.0 े ािधकार / Jurisdiction
+ 489.4  216.7 AHMEDABAD
+ 471.4   50.1 शशत और ितबंध / Condition And
+ 466.0  216.7 N/A
+ 460.0   50.4 Restriction
+ 430.6   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 45
+--- page 49 record {"app":"6329288","name":"","class":"1","pending":false,"ocr":"ANANA","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im231","x":219.05172825,"top":416.18013199999996,"w":156.04637769,"h":156.04637769}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6329288
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 01-03-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6  216.7 SHELADIYA KHUSHBUBEN PRASHANTBHAI PROPRIETOR OF ANANTA
+ 641.2   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 635.2  216.7 ORGANICS
+ 617.2   54.6 व वधधााररी/आवेदेदक का पतता/
+ 611.8  216.7 Khodiyar Mandir Pase, Kumbhariya, Kumbhariya, Amreli, 365565, Gujarat
+ 605.8   50.4 Proprietor/Applicant Address
+ 587.8   50.1 आआवेदक ककाा कार / Type of Applicant
+ 587.8  216.7 Single Firm
+ 569.8   50.1 ववग/Class
+ 569.8  216.7 1
+ 551.8   50.1 वव तुु का िववरण/ Description of
+ 548.8  216.7 Class 1: Compost Within Class 1.
+ 540.4   50.4 Goods/Services
+ 522.4   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 522.4  216.7 Proposed to be Used
+ 504.4   57.0 े ािधकार / Jurisdiction
+ 504.4  216.7 AHMEDABAD
+ 486.4   50.1 शशत और ितबंध / Condition And
+ 481.0  216.7 N/A
+ 475.0   50.4 Restriction
+ 445.6   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 49
+--- page 51 record {"app":"6344601","name":"","class":"1","pending":false,"ocr":"BY FALCON","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im243","x":224.45333399999998,"top":382.57014275000006,"w":145.24316662500001,"h":156.04637738625}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6344601
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 13-03-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 PARDEEP GOEL SOLE PROPRIETOR OF ASTER AEROSOLES INDIA
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 SHOP NO.5, OPP. STADIUM POLICE LINE ROAD, NEW SHAKTI VIHAR COLONY,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 RUDRAPUR, UDHAM SINGH NAGAR, UTTARAKHAND - 263153
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: CHEMICALS FOR USE IN INDUSTRY, CHEMICALS FOR USE IN INDUSTRY AND
+ 552.4  216.8 SCIENCE, PHOSPHORIC ACID, SULFURIC ACID, NITRIC ACID, AMMONIUM-HYDROXIDE,
+ 541.6  216.8 PHOTORESISTS,
+ 541.6  291.8 ELECTRICALLY
+ 541.6  360.8 CONDUCTIVE
+ 541.6  423.2 POLYMERS,
+ 541.6  482.1 UNPROCESSED,
+ 541.0   50.1 वव तुु का िववरण/ Description of
+ 530.8  216.8 ELECTRICALLY CONDUCTIVE POLYMERS FOR ELECTROMAGNETIC SHIELDING IN
+ 529.6   50.4 Goods/Services
+ 520.0  216.7 ELECTRONIC DEVICES UNDER CLASS 01.
+ 488.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 488.8  216.7 12/12/2020
+ 470.8   57.0 े ािधकार / Jurisdiction
+ 470.8  216.7 DELHI
+ 452.8   50.1 शशत और ितबंध / Condition And
+ 447.4  216.7 N/A
+ 441.4   50.4 Restriction
+ 412.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 51
+--- page 52 record {"app":"6431665","name":"","class":"1","pending":false,"ocr":"FY ASRICARE SEE GREEN THINK OF US","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im250","x":206.44798275,"top":411.97888324999997,"w":181.25386940100003,"h":72.62158343550001}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6431665
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 14-05-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 VINOD KUMAR GOYAL
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 A-102, Parsvnath Majestic Floor Vaibhav Khand, Indirapuram Shipra Sun City,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 Ghaziabad Uttar Pradesh - 201014
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: Chemicals for use in industry, science and photography, as well as in agriculture,
+ 555.4   50.1 वव तुु का िववरण/ Description of
+ 552.4  216.7 horticulture and forestry; compost, manures, fertilizers; biological preparations for use in
+ 544.0   50.4 Goods/Services
+ 541.6  216.7 industry and science
+ 518.2   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 518.2  216.7 01/09/1998
+ 500.2   57.0 े ािधकार / Jurisdiction
+ 500.2  216.7 DELHI
+ 482.2   50.1 शशत और ितबंध / Condition And
+ 476.8  216.7 N/A
+ 470.8   50.4 Restriction
+ 441.4   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 52
+--- page 53 record {"app":"6563285","name":"","class":"1","pending":false,"ocr":"A PARAMBU THE PAWER OF VATURE","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im257","x":154.23246375,"top":379.569251,"w":286.28508511350003,"h":103.23068058600002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6563285
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 07-08-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 PS PREETHI
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 NO:7/232, SRI MAHALAKSHMI GARDENS NAICKENPALAYAM ROAD, PATTANAM,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 COIMBATORE SOUTH, COIMBATORE, TAMIL NADU 641016
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.7 Class 1: chemicals used in industry, agriculture, horticulture, and forestry, Chemicals for use
+ 552.4  216.7 in industry, science and photography, as well as in agriculture, horticulture and forestry;
+ 541.6  216.8 Unprocessed artificial resins, unprocessed plastics; Fire extinguishing and fire prevention
+ 539.2   50.1 वव तुु का िववरण/ Description of
+ 530.8  216.7 compositions; Tempering and soldering preparations; Substances for tanning animal skins and
+ 527.8   50.4 Goods/Services
+ 520.0  216.7 hides; Adhesives for use in industry; Putties and other paste fillers; Compost, manures,
+ 509.2  216.7 fertilizers; Biological preparations for use in industry and science.
+ 485.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 485.8  216.7 Proposed to be Used
+ 467.8   57.0 े ािधकार / Jurisdiction
+ 467.8  216.7 CHENNAI
+ 449.8   50.1 शशत और ितबंध / Condition And
+ 444.4  216.7 N/A
+ 438.4   50.4 Restriction
+ 409.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 53
+--- page 55 record {"app":"6625743","name":"","class":"1","pending":false,"ocr":"PLANTIFY","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im269","x":221.45244225,"top":427.58352125,"w":151.24495062600002,"h":86.42568607200002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6625743
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 16-09-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 A R AYURVEDA PVT LTD
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 15,1st Floor,Ujala Avenue, Sarkhej Road, Juhapura,Ahmedabad-380055
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2   50.1 वव तुु का िववरण/ Description of
+ 560.2  216.7 Class 1: Fertilizer, garden care products
+ 551.8   50.4 Goods/Services
+ 533.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 533.8  216.7 12/04/2023
+ 515.8   57.0 े ािधकार / Jurisdiction
+ 515.8  216.7 AHMEDABAD
+ 497.8   50.1 शशत और ितबंध / Condition And
+ 492.4  216.7 N/A
+ 486.4   50.4 Restriction
+ 457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 55
+--- page 60 record {"app":"6645207","name":"","class":"1","pending":false,"ocr":"IDEE","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im296","x":153.0321075,"top":427.58352125,"w":288.085620375,"h":112.233356235}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6645207
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 27-09-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 VAAM GREEN PVT. LTD.
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 203/204, Sneh Ganga, Shanker Shet Road, Pune, 411042
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2   50.1 वव तुु का िववरण/ Description of
+ 560.2  216.7 Class 1: Chemicals for industry;
+ 551.8   50.4 Goods/Services
+ 533.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 533.8  216.7 Proposed to be Used
+ 515.8   57.0 े ािधकार / Jurisdiction
+ 515.8  216.7 MUMBAI
+ 497.8   50.1 शशत और ितबंध / Condition And
+ 492.4  216.7 N/A
+ 486.4   50.4 Restriction
+ 457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 60
+--- page 61 record {"app":"6657562","name":"","class":"1","pending":false,"ocr":"PUDI PAK","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im303","x":220.25208525,"top":422.782094,"w":154.245842325,"h":156.0463775325}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6657562
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 06-10-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 NAMAN BAJPAI
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 E-3/56, VINAY KHAND-3, NEAR RED ROSE SCHOOL, GOMTINAGAR, LUCKNOW -
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 226010, UTTAR PRADESH, INDIA
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: SILICA GELS, CHEMICAL SUBSTANCES, CHEMICAL MATERIALS AND
+ 560.8   50.1 वव तुु का िववरण/ Description of
+ 552.4  216.7 CHEMICAL PREPARATIONS, AND NATURAL ELEMENTS.
+ 549.4   50.4 Goods/Services
+ 529.0   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 529.0  216.7 Proposed to be Used
+ 511.0   57.0 े ािधकार / Jurisdiction
+ 511.0  216.7 DELHI
+ 493.0   50.1 शशत और ितबंध / Condition And
+ 487.6  216.7 N/A
+ 481.6   50.4 Restriction
+ 452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 61
+--- page 63 record {"app":"6699533","name":"","class":"1","pending":false,"ocr":"W CROVE GUARDIAN","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im315","x":177.03924225,"top":422.782094,"w":240.07135020000004,"h":99.62961033300002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6699533
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 07-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 MUKESH MANDA
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 Mandha ki Dhani, Sabalpura, Nagaur, Rajasthan, 341508
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.7 Class 1: Fertilizers, lawn fertilizers, grass fertilizers, Bio-fertilizer, Compost [fertilizer], Fertilizer
+ 560.8   50.1 वव तुु का िववरण/ Description of
+ 552.4  216.7 compositions, Mixed fertilizers
+ 549.4   50.4 Goods/Services
+ 529.0   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 529.0  216.7 Proposed to be Used
+ 511.0   57.0 े ािधकार / Jurisdiction
+ 511.0  216.7 AHMEDABAD
+ 493.0   50.1 शशत और ितबंध / Condition And
+ 487.6  216.7 N/A
+ 481.6   50.4 Restriction
+ 452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 63
+--- page 70 record {"app":"6716431","name":"","class":"1","pending":false,"ocr":"LRAIRA","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im352","x":198.04548524999998,"top":422.7820939999999,"w":198.05886391500002,"h":115.23424809600002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6716431
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 19-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 MR. NANDKISHOR RAJARAM AHER
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 Iraira Seeds and Agritech, 12- Kashayapi -F, Saubhagya nagar, Ganagapur road,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 Nashik-422013
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: Plant nutrient, organic fertilizer, soil conditioner, manure, compost, bio stimulant,
+ 560.8   50.1 वव तुु का िववरण/ Description of
+ 552.4  216.7 plant growth regulator, fertilizer.
+ 549.4   50.4 Goods/Services
+ 529.0   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 529.0  216.7 Proposed to be Used
+ 511.0   57.0 े ािधकार / Jurisdiction
+ 511.0  216.7 MUMBAI
+ 493.0   50.1 शशत और ितबंध / Condition And
+ 487.6  216.7 N/A
+ 481.6   50.4 Restriction
+ 452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 70
+--- page 71 record {"app":"6721120","name":"","class":"1","pending":false,"ocr":"CO WO INNOVATIVE & SUSTAINABLE CHEMISTRY","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im359","x":175.83888524999998,"top":422.782094,"w":242.47206370200004,"h":130.83888585900002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6721120
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 22-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 BEST VALUE CHEM PRIVATE LIMITED
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 801 to 809 and 824, 8th Floor, Block 1 Building, 73 East Avenue, Sarabhai Campus,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 Bhailal Amin Marg, Near Genda Circle, Subhanpura, Vadodara 390023, Gujarat
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: Industrial Chemicals, Chemicals for Industrial Purposes, Chemical Products for
+ 560.8   50.1 वव तुु का िववरण/ Description of
+ 552.4  216.7 preparation for flavourings
+ 549.4   50.4 Goods/Services
+ 529.0   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 529.0  216.7 Proposed to be Used
+ 511.0   57.0 े ािधकार / Jurisdiction
+ 511.0  216.7 AHMEDABAD
+ 493.0   50.1 शशत और ितबंध / Condition And
+ 487.6  216.7 N/A
+ 481.6   50.4 Restriction
+ 452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 71
+--- page 72 record {"app":"6722192","name":"","class":"1","pending":false,"ocr":"KCPL","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im366","x":202.8469125,"top":427.58352125,"w":189.05618828250002,"h":68.420334807}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6722192
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 21-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 KORDE CHEMICALS PVT. LTD.
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 W-13, T.T.C. INDUSTRIAL AREA, OPP. HICO BUS STOP, PAWANE, M.I.D.C., NAVI
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 MUMBAI-400705
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2   50.1 वव तुु का िववरण/ Description of
+ 560.2  216.7 Class 1: CHEMICAL COATINGS & FINE CHEMICALS INCLUDED IN CLASS 01
+ 551.8   50.4 Goods/Services
+ 533.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 533.8  216.7 01/04/2003
+ 515.8   57.0 े ािधकार / Jurisdiction
+ 515.8  216.7 MUMBAI
+ 497.8   50.1 शशत और ितबंध / Condition And
+ 492.4  216.7 N/A
+ 486.4   50.4 Restriction
+ 457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 72
+--- page 74 record {"app":"6725520","name":"","class":"1","pending":false,"ocr":"JAKSON BIOFUELS","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im378","x":201.046377,"top":390.37246175000007,"w":192.05708016000003,"h":69.02051318250001}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6725520
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 25-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 JAKSON BIOFUELS PRIVATE LIMITED
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 A-626, 6th Floor, DLF Tower A, Jasola, Jamia Nagar, New Delhi -110025
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 1
+ 563.2  216.8 Class 1: Ethanol for scientific purposes; Chemical additives for fuel; Chemicals used in
+ 552.4  216.7 industry, science and photography, as well as in agriculture, horticulture and forestry;
+ 544.6   50.1 वव तुु का िववरण/ Description of
+ 541.6  216.7 unprocessed artificial resins; Ethyl alcohol, Ethylene, Ethylene glycol; biological preparations
+ 533.2   50.4 Goods/Services
+ 530.8  216.7 for use in industry and science; Chemicals used in compost, manures, fertilizers; Chemical
+ 520.0  216.7 agents for carbon dioxide sequestration; Enzymes for industrial purposes.
+ 496.6   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 496.6  216.7 Proposed to be Used
+ 478.6   57.0 े ािधकार / Jurisdiction
+ 478.6  216.7 DELHI
+ 460.6   50.1 शशत और ितबंध / Condition And
+ 455.2  216.7 N/A
+ 449.2   50.4 Restriction
+ 419.8   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  291.9 74
 === ipo-docs\IPIndia_Docs\TMR\2026\2283\Class 6 - 10.pdf: 1045 pages, 18002002 bytes
 --- page 1 no record
  791.9   67.8 Trade Marks Journal No: 2283
@@ -696,7 +1399,7 @@
  668.3  276.4 ववगग 6
  638.8  257.8 CLASS 6
   27.1  286.4 1915
---- page 2 record {"app":"5129122","name":"","class":"6","pending":false}
+--- page 2 record {"app":"5129122","name":"","class":"6","pending":false,"ocr":"","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im16","x":198.04548524999998,"top":390.37246175000007,"w":198.05886391500002,"h":147.64388037300003}]}
  778.7   49.8 आवेदन सं या/Application Number: 5129122
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -733,7 +1436,7 @@
  449.2   50.4 Restriction
  419.8   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1916
---- page 3 record {"app":"5288740","name":"FAZ","class":"6","pending":false}
+--- page 3 record {"app":"5288740","name":"FAZ","class":"6","pending":false,"ocr":null,"imgs":null}
  778.7   49.8 आवेदन सं या/Application Number: 5288740
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -768,7 +1471,7 @@
  452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
  388.0  262.9 FAZ
   27.1  286.4 1917
---- page 4 record {"app":"5654998","name":"","class":"6","pending":false}
+--- page 4 record {"app":"5654998","name":"","class":"6","pending":false,"ocr":"BS AARGKRAFT","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im28","x":241.85850675,"top":422.7820939999999,"w":110.43282087075,"h":156.0463776495}]}
  778.7   49.8 आवेदन सं या/Application Number: 5654998
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -802,7 +1505,7 @@
  481.6   50.4 Restriction
  452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1918
---- page 5 record {"app":"5692190","name":"GHAR KO DE VIP WAALI FEELING","class":"6","pending":false}
+--- page 5 record {"app":"5692190","name":"GHAR KO DE VIP WAALI FEELING","class":"6","pending":false,"ocr":null,"imgs":null}
  778.7   49.8 आवेदन सं या/Application Number: 5692190
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -857,7 +1560,7 @@
  192.9   85.8 GHAR KO DE VIP WAALI
  142.5  219.1 FEELING
   27.1  286.4 1919
---- page 6 record {"app":"5693215","name":"SRS","class":"6","pending":false}
+--- page 6 record {"app":"5693215","name":"SRS","class":"6","pending":false,"ocr":null,"imgs":null}
  778.7   49.8 आवेदन सं या/Application Number: 5693215
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -892,7 +1595,7 @@
  457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
  392.8  260.5 SRS
   27.1  286.4 1920
---- page 7 record {"app":"5846866","name":"","class":"6","pending":false}
+--- page 7 record {"app":"5846866","name":"","class":"6","pending":false,"ocr":"AAVANT","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im45","x":229.85493975,"top":174.30824600000005,"w":134.439956112,"h":121.23603185100002}]}
  778.7   49.8 आवेदन सं या/Application Number: 5846866
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -950,7 +1653,7 @@
  233.1   50.4 Restriction
  203.7   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1921
---- page 8 record {"app":"5894983","name":"","class":"6","pending":false}
+--- page 8 record {"app":"5894983","name":"","class":"6","pending":false,"ocr":"RAINBOW H- SORW","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im52","x":222.05262075000002,"top":422.782094,"w":150.6447722505,"h":83.42479419450001}]}
  778.7   49.8 आवेदन सं या/Application Number: 5894983
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -985,7 +1688,7 @@
  481.6   50.4 Restriction
  452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1922
---- page 9 record {"app":"5898974","name":"","class":"6","pending":false}
+--- page 9 record {"app":"5898974","name":"","class":"6","pending":false,"ocr":"PREMIUM PRODUCTS","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im59","x":226.2538695,"top":427.58352125,"w":141.6420964875,"h":156.0463776}]}
  778.7   49.8 आवेदन सं या/Application Number: 5898974
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1019,7 +1722,7 @@
  486.4   50.4 Restriction
  457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1923
---- page 10 record {"app":"6029835","name":"SAMBHAV PIPES AND FITTINGS","class":"6","pending":false}
+--- page 10 record {"app":"6029835","name":"SAMBHAV PIPES AND FITTINGS","class":"6","pending":false,"ocr":null,"imgs":null}
  778.7   49.8 आवेदन सं या/Application Number: 6029835
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1057,7 +1760,7 @@
  370.6  106.2 SAMBHAV PIPES AND
  320.2  214.9 FITTINGS
   27.1  286.4 1924
---- page 11 record {"app":"6036275","name":"","class":"6","pending":false}
+--- page 11 record {"app":"6036275","name":"","class":"6","pending":false,"ocr":"LONI VARE","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im71","x":206.44798275,"top":387.9717485,"w":181.25386940100003,"h":40.81212953400001}]}
  778.7   49.8 आवेदन सं या/Application Number: 6036275
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1094,7 +1797,7 @@
  449.8   50.4 Associated Marks Details
  417.4   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1925
---- page 12 record {"app":"6046415","name":"GO ODMADE","class":"6","pending":false}
+--- page 12 record {"app":"6046415","name":"GO ODMADE","class":"6","pending":false,"ocr":null,"imgs":null}
  778.7   49.8 आवेदन सं या/Application Number: 6046415
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1132,7 +1835,7 @@
  430.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
  365.8  184.5 GO ODMADE
   27.1  286.4 1926
---- page 13 record {"app":"6056691","name":"POLICE","class":"6","pending":false}
+--- page 13 record {"app":"6056691","name":"POLICE","class":"6","pending":false,"ocr":null,"imgs":null}
  778.7   49.8 आवेदन सं या/Application Number: 6056691
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1167,7 +1870,7 @@
  457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
  392.8  230.2 POLICE
   27.1  286.4 1927
---- page 14 record {"app":"6150565","name":"","class":"6","pending":false}
+--- page 14 record {"app":"6150565","name":"","class":"6","pending":false,"ocr":"SHAKTI WE A AIT ET","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im88","x":219.05172825,"top":401.1756725,"w":156.04637765625,"h":156.04637765625}]}
  778.7   49.8 आवेदन सं या/Application Number: 6150565
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1203,7 +1906,7 @@
  460.0   50.4 Restriction
  430.6   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1928
---- page 15 record {"app":"6167505","name":"","class":"6","pending":false}
+--- page 15 record {"app":"6167505","name":"","class":"6","pending":false,"ocr":"IN ARTIXAN","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im95","x":252.6617175,"top":427.58352125,"w":89.42657794950001,"h":117.03478322250001}]}
  778.7   49.8 आवेदन सं या/Application Number: 6167505
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1237,7 +1940,7 @@
  486.4   50.4 Restriction
  457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1929
---- page 17 record {"app":"6169416","name":"","class":"6","pending":false}
+--- page 17 record {"app":"6169416","name":"","class":"6","pending":false,"ocr":"ALFA","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im107","x":213.65012324999998,"top":422.782094,"w":166.84958838900002,"h":46.213734913500005}]}
  778.7   49.8 आवेदन सं या/Application Number: 6169416
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1272,7 +1975,7 @@
  481.6   50.4 Restriction
  452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1931
---- page 20 record {"app":"6221444","name":"","class":"6","pending":false}
+--- page 20 record {"app":"6221444","name":"","class":"6","pending":false,"ocr":"TK ALLUX","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im124","x":219.05172825,"top":390.37246175000007,"w":156.046377321,"h":156.046377321}]}
  778.7   49.8 आवेदन सं या/Application Number: 6221444
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1309,7 +2012,7 @@
  449.2   50.4 Restriction
  419.8   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1934
---- page 21 record {"app":"6228051","name":"","class":"6","pending":false}
+--- page 21 record {"app":"6228051","name":"","class":"6","pending":false,"ocr":"","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im131","x":207.04816125,"top":422.782094,"w":180.05351265000002,"h":155.44619925450002}]}
  778.7   49.8 आवेदन सं या/Application Number: 6228051
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1342,7 +2045,7 @@
  481.6   50.4 Restriction
  452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1935
---- page 27 record {"app":"6304954","name":"","class":"6","pending":false}
+--- page 27 record {"app":"6304954","name":"","class":"6","pending":false,"ocr":"","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im163","x":233.45601,"top":427.58352125,"w":127.837993998,"h":156.04637767875002}]}
  778.7   49.8 आवेदन सं या/Application Number: 6304954
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1376,7 +2079,7 @@
  486.4  216.7 LABEL..
  457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1941
---- page 28 record {"app":"6305520","name":"","class":"6","pending":false}
+--- page 28 record {"app":"6305520","name":"","class":"6","pending":false,"ocr":"UC DL GCO","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im170","x":153.0321075,"top":386.171213,"w":288.085620228,"h":87.62604282000001}]}
  778.7   49.8 आवेदन सं या/Application Number: 6305520
  778.7  423.1 जनल सं या/Journal Number: 2283
  761.3   49.8 आवेदन क ितिथ/Date of Filing:
@@ -1414,3 +2117,800 @@
  449.2   50.4 Restriction
  415.6   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
   27.1  286.4 1942
+--- page 29 record {"app":"6305529","name":"","class":"6","pending":false,"ocr":"XZ SS &","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im177","x":224.45333399999998,"top":386.171213,"w":145.84334518350002,"h":156.04637756550002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6305529
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 16-02-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 GOODLUCK INDIA LIMITED
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 509, ARUNACHAL BUILDING, BARAKHAMBA ROAD, CONNAUGHT PLACE, NEW
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 DELHI -110001
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.8 Class 6: COMMON METALS AND THEIR ALLOYS, ORES; METAL MATERIALS FOR
+ 552.4  216.8 BUILDING AND CONSTRUCTION; TRANSPORTABLE BUILDINGS OF METAL; SMALL
+ 544.6   50.1 वव तुु का िववरण/ Description of
+ 541.6  216.8 ITEMS OF METAL HARDWARE; METAL CONTAINERS FOR STORAGE OR TRANSPORT;
+ 533.2   50.4 Goods/Services
+ 530.8  216.8 SAFES, METAL COILS, GALVANIZED STEEL SHEETS, STEEL SHEETS, METAL
+ 520.0  216.7 FLANGES, METAL FORGINGS, STEEL FORGINGS, STEEL TUBES
+ 496.6   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 496.6  216.7 07/11/2014
+ 478.6   57.0 े ािधकार / Jurisdiction
+ 478.6  216.7 DELHI
+ 460.6   50.1 शशत और ितबंध / Condition And
+ 452.8  216.7 N/A
+ 449.2   50.4 Restriction
+ 415.6   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1943
+--- page 30 record {"app":"6305766","name":"","class":"6","pending":false,"ocr":"WONT IS PANTHER CIHES","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im184","x":241.25832825,"top":390.37246175000007,"w":112.23335616600001,"h":156.0463775325}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6305766
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 16-02-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 JINDAL STEEL LIMITED
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 O.P. Jindal Marg, Hisar 125005, Haryana, India
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.7 Class 6: Common metals and their alloys, ores; Metal materials for building and construction;
+ 552.4  216.8 Transportable buildings of metal; Structures and transportable buildings of metal; Small items
+ 544.6   50.1 वव तुु का िववरण/ Description of
+ 541.6  216.7 of metal hardware; TMT re-bars, steel, steel in the form of sheets, plates, foils and coils, plated
+ 533.2   50.4 Goods/Services
+ 530.8  216.7 steel, rolled steel, cold-finished steel bars, steel wire and rods, flange, angles and channels,
+ 520.0  216.7 steel flooring, crude steel and semi-finished steel products.
+ 496.6   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 496.6  216.7 Proposed to be Used
+ 478.6   57.0 े ािधकार / Jurisdiction
+ 478.6  216.7 DELHI
+ 460.6   50.1 शशत और ितबंध / Condition And
+ 460.6  216.7 THIS IS SUBJECT TO ASSOCIATION WITH REGISTERED/PENDING REGISTRATION
+ 449.2   50.4 Restriction
+ 449.2  216.7 NO..6305767.
+ 419.8   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1944
+--- page 31 record {"app":"6305767","name":"","class":"6","pending":false,"ocr":"IF PANTHER QORROSHIELD","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im191","x":240.65815050000003,"top":390.37246175000007,"w":113.433713001,"h":156.0463775325}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6305767
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 16-02-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 JINDAL STEEL LIMITED
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 O.P. Jindal Marg, Hisar 125005, Haryana, India
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.7 Class 6: Common metals and their alloys, ores; Metal materials for building and construction;
+ 552.4  216.8 Transportable buildings of metal; Structures and transportable buildings of metal; Small items
+ 544.6   50.1 वव तुु का िववरण/ Description of
+ 541.6  216.7 of metal hardware; TMT re-bars, steel, steel in the form of sheets, plates, foils and coils, plated
+ 533.2   50.4 Goods/Services
+ 530.8  216.7 steel, rolled steel, cold-finished steel bars, steel wire and rods, flange, angles and channels,
+ 520.0  216.7 steel flooring, crude steel and semi-finished steel products.
+ 496.6   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 496.6  216.7 Proposed to be Used
+ 478.6   57.0 े ािधकार / Jurisdiction
+ 478.6  216.7 DELHI
+ 460.6   50.1 शशत और ितबंध / Condition And
+ 455.2  216.7 The mark shall be used as a whole.
+ 449.2   50.4 Restriction
+ 419.8   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1945
+--- page 32 record {"app":"6307484","name":"","class":"6","pending":false,"ocr":"ALUWALL SERIES","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im198","x":153.0321075,"top":357.9628295,"w":288.08562020700003,"h":147.64388041200002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6307484
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 17-02-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 ALUDECOR LAMINATION PVT. LTD.
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 1, R.N. MUKHERJEE ROAD, 05TH FLOOR, SUITE NO. 52, KOLKATA-700001.
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.7 Class 6: METALLIC PANELS FOR BUILDING FACADES, CEILING, FLOORING AND CLEAN
+ 552.4  216.8 ROOMS, METALLIC HONEYCOMB PANELS FOR BUILDING FACADES, CEILING,
+ 541.6  216.8 FLOORING AND CLEAN ROOMS AND DOORS PARTITIONS, ALUMINIUM SHEETS, WALL
+ 530.8  216.8 FACADES, CHANNELS, ANGLES, PANBLS (METALLIC), COMPOSITE PANELS,
+ 528.4   50.1 वव तुु का िववरण/ Description of
+ 520.0  216.8 COMPOSITE SHEETS, METALLIC PANELS, CLADDING PANELS OF METAL, ALUMINIUM
+ 517.0   50.4 Goods/Services
+ 509.2  216.8 DOOR, ALUMINIUM WINDOW, WALL PANELS, DECORATIVE PANELS, LAMINATED
+ 498.4  216.8 PANELS, SIGN PANELS, COMMON METALS AND THEIR ALLOYS PANELS INCLUDED IN
+ 487.6  216.7 CLASS 06.
+ 464.2   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 464.2  216.7 Proposed to be Used
+ 446.2   57.0 े ािधकार / Jurisdiction
+ 446.2  216.7 KOLKATA
+ 428.2   50.1 शशत और ितबंध / Condition And
+ 422.8  216.7 ASSOCIATION WITH REGISTRATION NO. 2060096.
+ 416.8   50.4 Restriction
+ 387.4   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1946
+--- page 36 record {"app":"6343225","name":"","class":"6","pending":false,"ocr":"EZEBRIX","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im220","x":189.6429885,"top":427.58352125,"w":215.46403680450004,"h":54.016053795000005}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6343225
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 12-03-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 M/S. EXCELLENT NEXGEN LLP
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 Canvas Showroom, Near Savan Signet, Opp. Tulsi Super Market, Raiya Road, Rajkot,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 Gujarat – 360007, India
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Limited Liability Partnership(LLP)
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2   50.1 वव तुु का िववरण/ Description of
+ 560.2  216.7 Class 6: Metal Hardware
+ 551.8   50.4 Goods/Services
+ 533.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 533.8  216.7 Proposed to be Used
+ 515.8   57.0 े ािधकार / Jurisdiction
+ 515.8  216.7 AHMEDABAD
+ 497.8   50.1 शशत और ितबंध / Condition And
+ 492.4  216.7 N/A
+ 486.4   50.4 Restriction
+ 457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1950
+--- page 37 record {"app":"6343525","name":"","class":"6","pending":false,"ocr":"GOODWILL","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im227","x":195.04459350000002,"top":410.17834775,"w":204.66082604550002,"h":73.22176181100001}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6343525
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 12-03-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 JAWAD SALAHUDDIN
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 130, LINTON STREET, ENTALLY - 700014, KOLKATA, WEST BENGAL
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 580.6   50.1 ववग/Class
+ 581.2  216.7 6
+ 561.4  216.8 Class 6: BASKETS OF METAL, DOOR AND WINDOW FITTINGS OF METAL, DOOR
+ 553.6   50.1 वव तुु का िववरण/ Description of
+ 550.6  216.8 HARDWARE OF METAL, FITTINGS OF METAL FOR FURNITURE, METAL HANDLES,
+ 542.2   50.4 Goods/Services
+ 539.8  216.7 TELESCOPIC CHANNEL OF METAL, METAL HARDWARE INCLUDED IN CLASS-06
+ 516.4   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 516.4  216.7 Proposed to be Used
+ 498.4   57.0 े ािधकार / Jurisdiction
+ 498.4  216.7 KOLKATA
+ 480.4   50.1 शशत और ितबंध / Condition And
+ 475.0  216.7 N/A
+ 469.0   50.4 Restriction
+ 439.6   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1951
+--- page 38 record {"app":"6520914","name":"","class":"6","pending":false,"ocr":"","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im234","x":219.65190675000002,"top":427.58352125,"w":154.84602086249998,"h":156.04637747099997}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6520914
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 11-07-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 COOLENGINE INTERNATIONAL LLP
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 TC No XI/1925-1, PLANTHOP CHARACHIRA KAUDIAR THIRUVANANTHAPURAM
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 KERALA 695003
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Limited Liability Partnership(LLP)
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2   50.1 वव तुु का िववरण/ Description of
+ 560.2  216.7 Class 6: Common metals and their alloys
+ 551.8   50.4 Goods/Services
+ 533.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 533.8  216.7 Proposed to be Used
+ 515.8   57.0 े ािधकार / Jurisdiction
+ 515.8  216.7 CHENNAI
+ 497.8   50.1 शशत और ितबंध / Condition And
+ 492.4  216.7 N/A
+ 486.4   50.4 Restriction
+ 457.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1952
+--- page 39 record {"app":"6666284","name":"","class":"6","pending":false,"ocr":"SMEXIP","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im241","x":188.4426315,"top":411.97888324999997,"w":217.26457193100003,"h":124.23692372850002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6666284
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 11-10-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 R.S. INDUSTRIES
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 2B, Industrial Estate, Nr. Borsad Chokdi, Anand - 388001.
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Partnership Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.7 Class 6: Common metals and their alloys, ores; Metal materials for building and construction;
+ 555.4   50.1 वव तुु का िववरण/ Description of
+ 552.4  216.8 Transportable buildings of metal; Non-electric cables and wires of common metal; Small items
+ 544.0   50.4 Goods/Services
+ 541.6  216.7 of metal hardware; Metal containers for storage or transport; Safes.
+ 518.2   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 518.2  216.7 Proposed to be Used
+ 500.2   57.0 े ािधकार / Jurisdiction
+ 500.2  216.7 AHMEDABAD
+ 482.2   50.1 शशत और ितबंध / Condition And
+ 476.8  216.7 N/A
+ 470.8   50.4 Restriction
+ 441.4   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1953
+--- page 40 record {"app":"6670317","name":"","class":"6","pending":false,"ocr":"RY OE 6 URGA KS ZN","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im248","x":219.05172825,"top":422.782094,"w":156.04637760000003,"h":156.04637760000003}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6670317
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 15-10-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 KAMAL DEEP GOYAL PROPRIETOR OF SHREE DURGA STEELS
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 STREET NO.1, GOPAL NAGAR, HAIBOWAL KALAN, LUDHIANA-141001
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.7 Class 6: Metal gates and fences; Steel tube gates; Grilles of metal; Metal windows; Shutters
+ 560.8   50.1 वव तुु का िववरण/ Description of
+ 552.4  216.7 of metal
+ 549.4   50.4 Goods/Services
+ 529.0   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 529.0  216.7 02/08/2004
+ 511.0   57.0 े ािधकार / Jurisdiction
+ 511.0  216.7 DELHI
+ 493.0   50.1 शशत और ितबंध / Condition And
+ 487.6  216.7 N/A
+ 481.6   50.4 Restriction
+ 452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1954
+--- page 41 record {"app":"6700423","name":"","class":"6","pending":false,"ocr":"WHT SREE. NERSYY","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im255","x":219.05172825,"top":334.55587249999996,"w":156.046377321,"h":156.046377321}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6700423
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 07-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 METAROLLS STEELS AND ENERGY PRIVATE LIMITED
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 Gat No 48 , Addl MIDC Area, Phase II, Jalna 431203
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 580.6   50.1 ववग/Class
+ 581.2  216.7 6
+ 561.4  216.8 Class 6: HIGH STRENGTH DEFORMED STEEL BARS WITH CORROSION RESISTANCE
+ 550.6  216.8 PROPERTIES, AND WIRES FOR CONCRETE REINFORCEMENT (TMT BARS), STEEL
+ 539.8  216.8 PIPE, SHEET AND STRUCTURAL STEEL, COMMON METALS AND THEIR ALLOYS;
+ 529.0  216.8 METAL BUILDING MATERIALS, TRANSPORTABLE BUILDINGS OF METAL; MATERIALS
+ 518.2  216.8 OF METAL FOR RAILWAY TRACKS; NON-ELECTRIC CABLES AND WIRES OF COMMON
+ 515.8   50.1 वव तुु का िववरण/ Description of
+ 507.4  216.8 METAL IRONMONGERY, SMALL ITEMS OF METAL HARDWARE; PIPES AND TUBES OF
+ 504.4   50.4 Goods/Services
+ 496.6  216.8 METAL; SAFES; GOODS OF COMMON METAL NOT INCLUDED IN OTHER CLASSES;
+ 485.8  216.8 ORES AND SOIL FIXING, ROCK BOLT, ANCHORING, DAM RETROFITS, BRIDGES, MINING
+ 475.0  216.8 TUNNELLING, SOIL NAILING, MICRO PILES, POST TENSIONING, RETAINING WALLS,
+ 464.2  216.7 DRILLED SHAFTS, EXCAVATION SHORING, REINFORCING STEEL INCLUDED IN CLASS 6
+ 440.8   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 440.8  216.7 Proposed to be Used
+ 422.8   57.0 े ािधकार / Jurisdiction
+ 422.8  216.7 MUMBAI
+ 404.8   50.1 शशत और ितबंध / Condition And
+ 399.4  216.7 N/A
+ 393.4   50.4 Restriction
+ 364.0   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1955
+--- page 44 record {"app":"6707018","name":"","class":"6","pending":false,"ocr":"CA","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im272","x":182.44084800000002,"top":422.78209400000003,"w":229.86831788249998,"h":156.04637763000002}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6707018
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 13-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 MUKESH KUMAR TRADING AS MITTER FASTENERS
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 PLOT NUMBER 218, WARD NUMBER 13, GT ROAD, VPO DORAHA, TEHSIL PAYAL,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 LUDHIANA - 141421 (PB.)
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Single Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.7 Class 6: Nuts, bolts, fasteners, of metal, Metal studs [other than for football boots, clothing &
+ 560.8   50.1 वव तुु का िववरण/ Description of
+ 552.4  216.7 vehicle tyres]
+ 549.4   50.4 Goods/Services
+ 529.0   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 529.0  216.7 Proposed to be Used
+ 511.0   57.0 े ािधकार / Jurisdiction
+ 511.0  216.7 DELHI
+ 493.0   50.1 शशत और ितबंध / Condition And
+ 487.6  216.7 N/A
+ 481.6   50.4 Restriction
+ 452.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1958
+--- page 46 record {"app":"6711670","name":"","class":"6","pending":false,"ocr":"BAD LY","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im284","x":239.4577935,"top":273.93785675000004,"w":115.83442625475001,"h":156.04637747099997}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6711670
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 15-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 DEEPCHAND PROPRIETOR OF GAURI SHANKAR TRADING
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 626.8  216.7 HOUSE NO.B-619, SANGAM VIHAR, DHAROTI KHURD, LONI, GHAZIABAD, UTTAR
+ 617.2   50.4 Proprietor/Applicant Address
+ 615.4  216.7 PRADESH-201102
+ 595.0   50.1 आआवेदक ककाा कार / Type of Applicant
+ 595.0  216.7 Single Firm
+ 577.0   50.1 ववग/Class
+ 577.0  216.7 6
+ 559.0  216.8 Class 6: Wall-Mounted Soap Dispensers Of Metal, Wall-Mounted Liquid Soap Dispensers Of
+ 548.2  216.8 Metal, Wall-Mounted Soap Dispensers Of Metal For Public Bathrooms, Wall-Mounted Soap
+ 537.4  216.8 Dispensers Of Metal For Public Restrooms, Hardware Goods, Door & Window Fittings
+ 526.6  216.8 Including Lock Of Metal, Pipes And Tubes Of Metal;, Iron Pipes, Aluminums Pipes, Pipe
+ 515.8  216.8 Fittings (Metal), Nut, Bolts, Screw, Washer Of Metal, Pipes And Tubes Of Metal;, Iron Pipes,
+ 505.0  216.8 Aluminums Pipes, Pipe Fittings (Metal), Springs(Metal), Clips(Metal), Chains (Metal), Hook
+ 494.2  216.7 (Metal), Hinges (Metal), Brass, Hose Clamps (Metal), Metal Handles, Gate Hooks (Metal),
+ 486.4   50.1 वव तुु का िववरण/ Description of
+ 483.4  216.8 Door Locks, Door Stopper, Door Safety (Metal), Curtain Wire, Hardware Spring, Fasteners Of
+ 475.0   50.4 Goods/Services
+ 472.6  216.8 Common Metal, Metal Frame For Door And Window, Metal Pipes And Tubes, Steel Pipes And
+ 461.8  216.8 Tubes And Common Metals & Their Alloys; Metal Building Materials; Transportable Buildings
+ 451.0  216.8 Of Metal; Materials Of Metal For Railway Tracks; Jali, Non-Electrical Wires Of Common
+ 440.2  216.8 Metals; Ironmongery; Metal Hardware; Pipes & Tubes Of Metal; Safes; Goods Of Common
+ 429.4  216.7 Metal Not Included In Other Classes, Namely Fittings Of Metal For Compressed Air Hoses, Air
+ 418.6  216.8 Lines, Metal Fuel Hoses, Grommets, Oil Cans, Hose Reels, Tool Boxes And Tool Trays; Tool
+ 407.8  216.7 Chests; Metal Containers For Tools.
+ 384.4   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 384.4  216.7 Proposed to be Used
+ 366.4  216.7 DELHI
+ 364.6   57.0 े ािधकार / Jurisdiction
+ 344.2   50.1 शशत और ितबंध / Condition And
+ 338.8  216.7 N/A
+ 332.8   50.4 Restriction
+ 303.3   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1960
+--- page 47 record {"app":"6716758","name":"","class":"6","pending":false,"ocr":"","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6716758
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 19-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 CORE INDUSTRIES PRIVATE LIMITED
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 A-7B, BASEMENT, BLOCK-A, JHILMIL INDUSTRIAL AREA, NEW DELHI, SHAHDRA,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 DELHI, 110095
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.8 Class 6: Metals, Welding metals, Anodised metals, Raw base metals, Metals and metal
+ 552.4  216.7 alloys, Common metals and their alloys including stainless steel, Architectural hardware made
+ 541.6  216.7 of common metals and alloys thereof, Common metals and their alloys, Metals for welding
+ 530.8  216.7 cast iron, Metal hardware, Door hardware (Metal -), Springs [metal hardware], Small hardware
+ 520.0  216.7 of metal , Hardware of metal, small, Door hardware of metal, Window hardware of metal, Metal
+ 509.2  216.7 hardware for buildings, Small items of metal hardware, Buckles of common metal [hardware],
+ 498.4  216.8 Metal hardware, namely, double-end swivels, Metal clasps for door security hardware,
+ 487.6  216.8 Cladding panels of metal hardware being keys and key cylinders, Architectural hardware made
+ 476.8  216.7 of common metals and alloys thereof, Aluminium doors, Metal doors, Metallic doors, Metal
+ 466.0  216.7 doorknobs, Metal door panels, Metal door hinges, Metal door stops, Metal door locks, Metal
+ 455.2  216.7 door fasteners¸ Metal door handles¸ Metal door latches¸ Door hardware (Metal -), Metal door
+ 444.4  216.7 bolts, Metal door frames, Metal door units, Metal safety doors, Metal revolving doors, Metal fire
+ 433.6  216.7 doors, Metal inner doors, Metal outer doors, Doors of metal *, Metal entrance doors, Metallic
+ 422.8  216.7 fire doors, Metal patio doors, Metal sliding doors, Aluminium residential doors, Aluminium
+ 412.0  216.7 patio doors, Metal folding doors, Doorknobs of metal, Door locks of metal, Door latches of
+ 401.2  216.7 metal, Door nameplates of metal, Door hardware of metal, Catches (Door -) of metal, Door
+ 390.4  216.7 pulls of metal, Door pushes of metal, Door springs, non-electric, Door closers, non-electric,
+ 379.6  216.8 Non-electric door springs, Metal cabinet door catches, Door fasteners of metal¸ Door guards of
+ 368.8  216.7 metal¸ Door fittings of metal, Door furniture of metal, Bolts (Door -) of metal, Door frames of
+ 358.0  216.7 metal, Door jambs of metal, Door hinges of metal, Door sections of metal, Door seals of metal¸
+ 347.2  216.8 Metal garage door rollers, Metal chain door guards, Door chains of metal, Door openers, non-
+ 336.4  216.7 electric¸ Door handles of metal¸ Metal gates and fencing panels , Metal automatic revolving
+ 325.6  216.7 doors, Metal automatic sliding doors, Metal automatic swing doors, Metal automatic bifolding
+ 314.8  216.7 doors¸ Sliding doors of metal, Inner doors of metal, Entrance doors of metal, Metallic fittings for
+ 303.9  216.7 doors, Safety doors of metal¸ Metal panels for doors, Fire doors of metal, Fireproof doors of
+ 293.1  216.7 metal, Metal locks for doors¸ Garage doors of metal, Patio doors of metal, Roller doors of
+ 282.3  216.7 metal, Metal components for doors, Shutter doors of metal, Patio doors (Metal framed -)¸ Outer
+ 271.5  216.7 doors of metal, Glazed doors of metal, Swing doors of metal, Folding doors of metal¸ Revolving
+ 260.7  216.7 doors of metal¸ Doorknobs of common metal, Doorknobs made of metal, Garage door rollers of
+ 249.9  216.7 metal, Chain door guards of metal, Non-electric metal door closers, Door lever furniture of
+ 239.1  216.7 metal, Door knobs of common metal, Metal door viewers [non-magnified], Door friction stays of
+ 228.3  216.7 metal, Metal nameplates and door nameplates, Door holding devices of metal¸ Locks of metal
+ 217.5  216.7 for doors,, Automatic swing doors of metal, Metal automatic security revolving doors,
+ 206.7  216.8 Automatic revolving doors of metal, Automatic sliding doors of metal, Automatic bifolding doors
+ 195.9  216.7 of metal, Entrance doors made of metal, Panels of metal for doors, Doors and windows of
+ 185.1  216.7 metal, Handles of metal for doors, Doors of metal for buildings, Fire resistant doors of metal¸
+ 174.3  216.8 Metallic frames for sliding doors¸ Fittings of metal for doors¸ Frames of metal for doors, Rollers
+ 168.3   50.1 वव तुु का िववरण/ Description of
+ 163.5  216.7 (Metal -) for sliding doors, Metal runners for sliding doors¸ Non-electric door closers of metal,
+ 156.9   50.4 Goods/Services
+ 152.7  216.8 Door locks of metal, non-electric, Hinge pin door closers of metal, Metal clasps for door
+ 141.9  216.7 security hardware¸ Spring-loaded door closers of metal¸ Non-electric door openers of metal,
+ 131.1  216.8 Door springs of metal, non-electric¸ Metal door frames for refrigerating rooms, Door closers of
+ 120.3  216.7 metal, non-electric¸ Frames of metal for sliding doors¸ Automatic security revolving doors of
+ 109.5  216.7 metal¸ Metal hinges for doors and windows, Metal hinges for windows and doors, Hinges for
+  98.7  216.7 doors and windows (Metal -), Sliding doors of metal for buildings¸ Latches (Metal -) being
+  87.9  216.7 fittings for doors, Safety fittings of metal for doors¸ Roller doors (Metal -) having insulating
+  77.1  216.7 properties, Doors of metal for indoor use¸ Runners of metal for sliding doors¸ Door frames of
+  66.3  216.7 metal for refrigerating rooms, Door closers made of metal, non-electric¸ Door springs made of
+  55.5  216.7 metal, non-electric, Non-electric door closers made of metal, Non-electric door springs made
+  44.7  216.7 of metal¸ Door openers made of metal, non-electric, Non-electric door openers made of metal,
+  27.1  286.4 1961
+--- page 49 record {"app":"6716759","name":"","class":"6","pending":false,"ocr":"","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6716759
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 19-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 CORE INDUSTRIES PRIVATE LIMITED
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 A-7B, BASEMENT, BLOCK-A, JHILMIL INDUSTRIAL AREA, NEW DELHI, SHAHDRA,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 DELHI, 110095
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.8 Class 6: Metals, Welding metals, Anodised metals, Raw base metals, Metals and metal
+ 552.4  216.7 alloys, Common metals and their alloys including stainless steel, Architectural hardware made
+ 541.6  216.7 of common metals and alloys thereof, Common metals and their alloys, Metals for welding
+ 530.8  216.7 cast iron, Metal hardware, Door hardware (Metal -), Springs [metal hardware], Small hardware
+ 520.0  216.7 of metal , Hardware of metal, small, Door hardware of metal, Window hardware of metal, Metal
+ 509.2  216.7 hardware for buildings, Small items of metal hardware, Buckles of common metal [hardware],
+ 498.4  216.8 Metal hardware, namely, double-end swivels, Metal clasps for door security hardware,
+ 487.6  216.8 Cladding panels of metal hardware being keys and key cylinders, Architectural hardware made
+ 476.8  216.7 of common metals and alloys thereof, Aluminium doors, Metal doors, Metallic doors, Metal
+ 466.0  216.7 doorknobs, Metal door panels, Metal door hinges, Metal door stops, Metal door locks, Metal
+ 455.2  216.7 door fasteners¸ Metal door handles¸ Metal door latches¸ Door hardware (Metal -), Metal door
+ 444.4  216.7 bolts, Metal door frames, Metal door units, Metal safety doors, Metal revolving doors, Metal fire
+ 433.6  216.7 doors, Metal inner doors, Metal outer doors, Doors of metal *, Metal entrance doors, Metallic
+ 422.8  216.7 fire doors, Metal patio doors, Metal sliding doors, Aluminium residential doors, Aluminium
+ 412.0  216.7 patio doors, Metal folding doors, Doorknobs of metal, Door locks of metal, Door latches of
+ 401.2  216.7 metal, Door nameplates of metal, Door hardware of metal, Catches (Door -) of metal, Door
+ 390.4  216.7 pulls of metal, Door pushes of metal, Door springs, non-electric, Door closers, non-electric,
+ 379.6  216.8 Non-electric door springs, Metal cabinet door catches, Door fasteners of metal¸ Door guards of
+ 368.8  216.7 metal¸ Door fittings of metal, Door furniture of metal, Bolts (Door -) of metal, Door frames of
+ 358.0  216.7 metal, Door jambs of metal, Door hinges of metal, Door sections of metal, Door seals of metal¸
+ 347.2  216.8 Metal garage door rollers, Metal chain door guards, Door chains of metal, Door openers, non-
+ 336.4  216.7 electric¸ Door handles of metal¸ Metal gates and fencing panels , Metal automatic revolving
+ 325.6  216.7 doors, Metal automatic sliding doors, Metal automatic swing doors, Metal automatic bifolding
+ 314.7  216.7 doors¸ Sliding doors of metal, Inner doors of metal, Entrance doors of metal, Metallic fittings for
+ 303.9  216.7 doors, Safety doors of metal¸ Metal panels for doors, Fire doors of metal, Fireproof doors of
+ 293.1  216.7 metal, Metal locks for doors¸ Garage doors of metal, Patio doors of metal, Roller doors of
+ 282.3  216.7 metal, Metal components for doors, Shutter doors of metal, Patio doors (Metal framed -)¸ Outer
+ 271.5  216.7 doors of metal, Glazed doors of metal, Swing doors of metal, Folding doors of metal¸ Revolving
+ 260.7  216.7 doors of metal¸ Doorknobs of common metal, Doorknobs made of metal, Garage door rollers of
+ 249.9  216.7 metal, Chain door guards of metal, Non-electric metal door closers, Door lever furniture of
+ 239.1  216.7 metal, Door knobs of common metal, Metal door viewers [non-magnified], Door friction stays of
+ 228.3  216.7 metal, Metal nameplates and door nameplates, Door holding devices of metal¸ Locks of metal
+ 217.5  216.7 for doors,, Automatic swing doors of metal, Metal automatic security revolving doors,
+ 206.7  216.8 Automatic revolving doors of metal, Automatic sliding doors of metal, Automatic bifolding doors
+ 195.9  216.7 of metal, Entrance doors made of metal, Panels of metal for doors, Doors and windows of
+ 185.1  216.7 metal, Handles of metal for doors, Doors of metal for buildings, Fire resistant doors of metal¸
+ 174.3  216.8 Metallic frames for sliding doors¸ Fittings of metal for doors¸ Frames of metal for doors, Rollers
+ 168.3   50.1 वव तुु का िववरण/ Description of
+ 163.5  216.7 (Metal -) for sliding doors, Metal runners for sliding doors¸ Non-electric door closers of metal,
+ 156.9   50.4 Goods/Services
+ 152.7  216.8 Door locks of metal, non-electric, Hinge pin door closers of metal, Metal clasps for door
+ 141.9  216.7 security hardware¸ Spring-loaded door closers of metal¸ Non-electric door openers of metal,
+ 131.1  216.8 Door springs of metal, non-electric¸ Metal door frames for refrigerating rooms, Door closers of
+ 120.3  216.7 metal, non-electric¸ Frames of metal for sliding doors¸ Automatic security revolving doors of
+ 109.5  216.7 metal¸ Metal hinges for doors and windows, Metal hinges for windows and doors, Hinges for
+  98.7  216.7 doors and windows (Metal -), Sliding doors of metal for buildings¸ Latches (Metal -) being
+  87.9  216.7 fittings for doors, Safety fittings of metal for doors¸ Roller doors (Metal -) having insulating
+  77.1  216.7 properties, Doors of metal for indoor use¸ Runners of metal for sliding doors¸ Door frames of
+  66.3  216.7 metal for refrigerating rooms, Door closers made of metal, non-electric¸ Door springs made of
+  55.5  216.7 metal, non-electric, Non-electric door closers made of metal, Non-electric door springs made
+  44.7  216.7 of metal¸ Door openers made of metal, non-electric, Non-electric door openers made of metal,
+  27.1  286.4 1963
+--- page 51 record {"app":"6719996","name":"","class":"6","pending":false,"ocr":"","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im315","x":203.447091,"top":336.356408,"w":187.85583155700002,"h":156.046377522}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6719996
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 21-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 AVADH ENTERPRISE
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 PLOT NO:-01, SHREE PARAMDHAM INDUSTRIAL ESTATE, KISHAN GAUSHALA
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 ROAD, N/R.AJI RIVER, RAJKOT-360002, GUAJRAT, INDIA
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Partnership Firm
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.8 Class 6: DOORS AND WINDOWS OF METAL; FURNITURE CASTERS OF METAL;
+ 552.4  216.8 ALUMINUM WIRE; NON-FERROUS METALS; METAL HINGES; WINDOW CASEMENT
+ 541.6  216.8 BOLTS; METAL DOOR FASTENERS; METAL BOLTS; STOPPERS OF METAL; METAL
+ 530.8  216.8 LATCHES; METAL WINDOW HANDLES; METAL KNOBS; METAL CABINET STOPS;
+ 520.0  216.8 BRASS WIRES; LETTERS AND NUMERALS OF COMMON METAL, EXCEPT TYPE; DOOR
+ 517.6   50.1 वव तुु का िववरण/ Description of
+ 509.2  216.8 KNOCKERS OF METAL; METAL HOOKS; IRON; KEYS OF METAL; SPLIT RINGS OF
+ 506.2   50.4 Goods/Services
+ 498.4  216.8 COMMON METAL FOR KEYS; BADGES OF METAL FOR VEHICLES; EMBLEMS OF
+ 487.6  216.8 METAL FOR VEHICLES; METAL HOLDERS FOR SIGNS; NAMEPLATES OF METAL;
+ 476.8  216.8 METALLIC BADGES FOR VEHICLES; METAL NUTS; WASHERS OF METAL;
+ 466.0  216.7 SCAFFOLDING TOWERS OF METAL; METAL PEGS; METAL SCREWS
+ 442.6   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 442.6  216.7 Proposed to be Used
+ 424.6   57.0 े ािधकार / Jurisdiction
+ 424.6  216.7 AHMEDABAD
+ 406.6   50.1 शशत और ितबंध / Condition And
+ 401.2  216.7 N/A
+ 395.2   50.4 Restriction
+ 365.8   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1965
+--- page 52 record {"app":"6723204","name":"","class":"6","pending":false,"ocr":"","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im322","x":219.05172825,"top":347.15961874999994,"w":156.04637769,"h":156.04637769}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6723204
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 23-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 VALLUVANAD ROOFINGS LLP
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 628.6  216.7 IX/378A, KANYALA ROAD PATTIKKAD-18, PATTIKKAD P.O, PERINTHALMANNA,
+ 617.2   50.4 Proprietor/Applicant Address
+ 617.2  216.7 MALAPPURAM, KERALA-679325 INDIA
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Limited Liability Partnership(LLP)
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.8 Class 6: METAL BUILDING MATERIALS; SHEETS AND PLATES OF METAL; METAL
+ 552.4  216.8 ROOFING; METAL ROOF TILES; METALLIC ROOF GUTTERS; METAL ROOF FLASHING;
+ 541.6  216.8 METAL ROOF TRUSSES; METAL ROOFING PANELS; METAL ROOFING HIPS; ROOF
+ 530.8  216.8 COVERINGS OF METAL; BUILDING PANELS OF METAL; METAL DOOR PANELS; WALL
+ 523.0   50.1 वव तुु का िववरण/ Description of
+ 520.0  216.8 PANELS OF METAL; METAL ROOFING PANELS; METAL CEILING PANELS; ALUMINIUM
+ 511.6   50.4 Goods/Services
+ 509.2  216.8 COMPOSITE PANEL (ACP SHEET); FLOOR BOARDS OF METAL; CEILING BOARDS OF
+ 498.4  216.8 METAL; METAL LOCKS; COMMON METALS AND THEIR ALLOYS; NON-FERROUS
+ 487.6  216.8 METALS AND THEIR ALLOYS; METALLIC DOORS; DOOR FITTINGS OF METAL; METAL
+ 476.8  216.7 DOOR FRAME; METAL DOOR HANDLES; METAL DOOR STOPS; METAL WINDOWS.
+ 453.4   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 453.4  216.7 Proposed to be Used
+ 435.4   57.0 े ािधकार / Jurisdiction
+ 435.4  216.7 CHENNAI
+ 417.4   50.1 शशत और ितबंध / Condition And
+ 412.0  216.7 N/A
+ 406.0   50.4 Restriction
+ 376.6   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1966
+--- page 54 record {"app":"6725941","name":"","class":"6","pending":false,"ocr":"FIRESTONE METAL","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im334","x":190.84334475,"top":368.76604025,"w":212.46314485949998,"h":156.04637754899997}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6725941
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 25-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 FIRE STONE METAL PVT. LTD.
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 GARHI, TARKHANA, MACHIWARA, LUDHIANA-141115 (PB.)
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.8 Class 6: Aluminium, Aluminium Ingots, Aluminium Slabs, Aluminium Sheets, Aluminium
+ 552.4  216.8 Profiles, Stabilized Aluminium Foam, Steel, Ferrous Metals, Non-Ferrous Metals, Non-Ferrous
+ 541.6  216.8 Metal Alloys, Non-Ferrous Metals And Their Alloys, Rolled Steel, Steel Forgings, Steel
+ 533.8   50.1 वव तुु का िववरण/ Description of
+ 530.8  216.8 Beams, Steel Rods, Profile Steel, Sheet Steel, Steel Fabrications, Prefabricated Aluminium
+ 522.4   50.4 Goods/Services
+ 520.0  216.8 Scaffolding Frames, Common Metals And Their Alloys Including Stainless Steel, Cast Steel,
+ 509.2  216.8 Structural Steel Work, Iron And Steel, Iron Castings [Semi-Finished], Steel In Sheet, Rod, Bar
+ 498.4  216.7 Or Billet Form & Tubes Of Steel, Including Those Rolled, Peeled Or Ground..
+ 475.0   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 475.0  216.7 Proposed to be Used
+ 457.0   57.0 े ािधकार / Jurisdiction
+ 457.0  216.7 DELHI
+ 439.0   50.1 शशत और ितबंध / Condition And
+ 433.6  216.7 N/A
+ 427.6   50.4 Restriction
+ 398.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1968
+--- page 55 record {"app":"6725942","name":"","class":"6","pending":false,"ocr":"PYROGREEN SOLAR ALUMINIUM SOLAR PANEL FRAME","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im341","x":174.638529,"top":368.76604025,"w":244.87277729625,"h":156.04637755874998}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6725942
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 25-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 FIRE STONE METAL PVT. LTD.
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 GARHI, TARKHANA, MACHIWARA, LUDHIANA-141115 (PB.)
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.8 Class 6: Aluminium, Aluminium Ingots, Aluminium Slabs, Aluminium Sheets, Aluminium
+ 552.4  216.8 Profiles, Stabilized Aluminium Foam, Steel, Ferrous Metals, Non-Ferrous Metals, Non-Ferrous
+ 541.6  216.8 Metal Alloys, Non-Ferrous Metals And Their Alloys, Rolled Steel, Steel Forgings, Steel
+ 533.8   50.1 वव तुु का िववरण/ Description of
+ 530.8  216.8 Beams, Steel Rods, Profile Steel, Sheet Steel, Steel Fabrications, Prefabricated Aluminium
+ 522.4   50.4 Goods/Services
+ 520.0  216.8 Scaffolding Frames, Common Metals And Their Alloys Including Stainless Steel, Cast Steel,
+ 509.2  216.8 Structural Steel Work, Iron And Steel, Iron Castings [Semi-Finished], Steel In Sheet, Rod, Bar
+ 498.4  216.7 Or Billet Form & Tubes Of Steel, Including Those Rolled, Peeled Or Ground..
+ 475.0   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 475.0  216.7 Proposed to be Used
+ 457.0   57.0 े ािधकार / Jurisdiction
+ 457.0  216.7 DELHI
+ 439.0   50.1 शशत और ितबंध / Condition And
+ 433.6  216.7 N/A
+ 427.6   50.4 Restriction
+ 398.2   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1969
+--- page 56 record {"app":"6726252","name":"","class":"6","pending":false,"ocr":"TATA SILCOMAG","imgs":[{"name":"Im14","x":261.66439349999996,"top":816.4991081225,"w":72.02140491,"h":72.02140497},{"name":"Im348","x":207.04816125,"top":401.1756725,"w":180.05351265000002,"h":87.02586444750001}]}
+ 778.7   49.8 आवेदन सं या/Application Number: 6726252
+ 778.7  423.1 जनल सं या/Journal Number: 2283
+ 761.3   49.8 आवेदन क ितिथ/Date of Filing:
+ 761.3  388.3 जनल काशन ितिथ/Journal Publication Date:
+ 749.9   49.8 25-11-2024
+ 749.9  501.7 19/10/2026
+ 731.3  260.8 बौि क संपदा भारत
+ 720.5  241.9 Intellectual Property INDIA
+ 694.1  249.7 ाापार ििच ह कााशन िववरण
+ 680.9  205.5 TRADE MARKS PUBLICATION DETAILS
+ 664.1   45.0 आववेदन ककाा िववरणण/Application Details:
+ 646.6   54.6 व वधधााररी/आवेदेदक/ Proprietor/Applicant
+ 646.6  216.7 TATA SONS PRIVATE LIMITED
+ 628.6   54.6 व वधधााररी/आवेदेदक का पतता/
+ 623.2  216.7 Bombay House, 24 - Homi Mody Street, Mumbai-400001
+ 617.2   50.4 Proprietor/Applicant Address
+ 599.2   50.1 आआवेदक ककाा कार / Type of Applicant
+ 599.2  216.7 Body Incorporate
+ 581.2   50.1 ववग/Class
+ 581.2  216.7 6
+ 563.2  216.7 Class 6: Common metals and their alloys; metal building materials; transportable buildings of
+ 552.4  216.7 metal; materials of metal for railway tracks; non-electric cables and wires of common metal;
+ 550.0   50.1 वव तुु का िववरण/ Description of
+ 541.6  216.7 ironmongery, small items of metal hardware; pipes and tubes of metal; safes; goods of
+ 538.6   50.4 Goods/Services
+ 530.8  216.7 common metal not included in other classes; ores.
+ 507.4   50.1 ततब से उपपयोग कयाा जाातता है/ Used Since
+ 507.4  216.7 22/08/2012
+ 489.4   57.0 े ािधकार / Jurisdiction
+ 489.4  216.7 MUMBAI
+ 471.4   50.1 शशत और ितबंध / Condition And
+ 466.0  216.7 N/A
+ 460.0   50.4 Restriction
+ 430.6   49.8 िव ािपत ापार ििचच ह/Advertised Trade Mark
+  27.1  286.4 1970
