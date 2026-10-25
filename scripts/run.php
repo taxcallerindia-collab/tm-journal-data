@@ -17,6 +17,7 @@ const LIST_URL = HOST . '/IPOJournal/Journal/Trademark';
 const VIEW_URL = HOST . '/IPOJournal/Journal/ViewJournal';
 const BACK = 104;                // also import the 104 journals before the first one seen (about 2 years)
 const MAX_JOURNALS = 8;          // per run (stops earlier at TIME_LIMIT)
+const READER_REV = 2;            // bump when the reader improves: older journals are read again
 const TIME_LIMIT = 4 * 3600;     // GitHub allows 6 hours per job; a journal takes up to ~1 hour
 
 $root = dirname(__DIR__);
@@ -184,13 +185,16 @@ if ($test) {
 }
 
 if (!$index['first']) $index['first'] = (int)$list[0]['no'];
+// Journals read by an older reader version are read again (and replace the old entry).
+$index['journals'] = array_values(array_filter($index['journals'], fn($e) => (int)($e['rev'] ?? 1) >= READER_REV));
 $done = array_column($index['journals'], 'no');
 $todo = array_values(array_filter($list, fn($j) => !in_array($j['no'], $done, true) && $j['no'] >= $index['first'] - BACK));
+usort($todo, fn($a, $b) => $b['no'] <=> $a['no']); // newest first
 $errors = [];
 foreach (array_slice($todo, 0, MAX_JOURNALS) as $j) {
     if (time() - $t0 > TIME_LIMIT) break;
     say('Journal ' . $j['no'] . ' (' . $j['date'] . '): ' . count($j['files']) . ' files');
-    $all = []; $logos = 0; $fileErr = []; $pagesTotal = 0;
+    $all = []; $logos = 0; $fileErr = []; $pagesTotal = 0; $logoNames = 0;
     foreach ($j['files'] as $f) {
         $short = basename(str_replace('\\', '/', $f));
         $tmp = sys_get_temp_dir() . '/tmj-' . $j['no'] . '.pdf';
@@ -199,7 +203,7 @@ foreach (array_slice($todo, 0, MAX_JOURNALS) as $j) {
         try {
             [$rows, $lg, $pages] = read_pdf($tmp);
             $pagesTotal += $pages; $logos += $lg;
-            foreach ($rows as $r) $all[$r['app_no']] = $r;
+            foreach ($rows as $r) { $all[$r['app_no']] = $r; if (($r['name_from'] ?? '') === 'logo') $logoNames++; }
             say("  $short: $pages pages, " . count($rows) . " word marks, $lg logo-only");
             if (!$rows && !$lg && $pages > 20) $fileErr[] = $short . ': no marks recognised (layout may have changed)';
         } catch (Throwable $e) {
@@ -217,10 +221,10 @@ foreach (array_slice($todo, 0, MAX_JOURNALS) as $j) {
     rewind($out);
     gzwrite($gz, (string)stream_get_contents($out));
     gzclose($gz); fclose($out);
-    $index['journals'][] = ['no' => $j['no'], 'date' => $j['date'], 'marks' => count($all), 'logos' => $logos, 'pages' => $pagesTotal, 'files' => count($j['files']),
+    $index['journals'][] = ['no' => $j['no'], 'rev' => READER_REV, 'date' => $j['date'], 'marks' => count($all), 'logos' => $logos, 'logo_names' => $logoNames, 'pages' => $pagesTotal, 'files' => count($j['files']),
         'errors' => $fileErr, 'csv' => $csv, 'bytes' => filesize($dataDir . '/' . $csv), 'done_at' => gmdate('c')];
     save_index($indexFile, $index);
-    say('Journal ' . $j['no'] . ': saved ' . count($all) . " word marks, $logos logo-only" . ($fileErr ? ', problems: ' . implode('; ', $fileErr) : ''), true);
+    say('Journal ' . $j['no'] . ': saved ' . count($all) . " marks ($logoNames read from logos), $logos logos without readable text" . ($fileErr ? ', problems: ' . implode('; ', $fileErr) : ''), true);
 }
 $index['last_error'] = $errors ? implode('; ', $errors) . ' (' . gmdate('Y-m-d H:i') . ' UTC)' : '';
 save_index($indexFile, $index);

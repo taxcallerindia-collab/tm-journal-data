@@ -74,7 +74,7 @@ function tmo_clean(string $t): string
         if (count($words) >= 3) break;
     }
     $name = trim(implode(' ', $words));
-    if (mb_strlen($name) < 2 || mb_strlen($name) > 80) return '';
+    if ((int)preg_match_all('~[\p{L}\p{N}]~u', $name) < 3 || mb_strlen($name) > 80) return '';
     return mb_strtoupper($name);
 }
 
