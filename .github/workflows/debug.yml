@@ -1,0 +1,34 @@
+name: Reader check
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: 'Journal number to dump page text'
+        type: string
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reader-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - name: OCR
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr >/dev/null
+      - name: Dump
+        env:
+          TMJ_DEBUG: ${{ inputs.debug }}
+        run: |
+          php scripts/run.php
+          git config user.name "journal-robot"
+          git config user.email "journal-robot@users.noreply.github.com"
+          git add debug && git commit -m "reader check ${{ inputs.debug }}"
+          for i in 1 2 3; do git pull --rebase --quiet && git push && break; sleep 5; done
