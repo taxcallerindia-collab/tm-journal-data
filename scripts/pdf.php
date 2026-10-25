@@ -237,7 +237,15 @@ function tmp_page_cells(array &$pdf, int $page): array
     $content = '';
     if (preg_match('~/Contents\s*(\[[^\]]*\]|\d+\s+0\s+R)~', $d, $m)) {
         preg_match_all('~(\d+)\s+0\s+R~', $m[1], $cm);
-        foreach ($cm[1] as $c) { $co = tmp_obj($pdf, (int)$c); $content .= ($co['stream'] ?? '') . "\n"; }
+        foreach ($cm[1] as $c) {
+            $co = tmp_obj($pdf, (int)$c);
+            // /Contents may point to an array object: [12 0 R 13 0 R …] (PDFium-written journals)
+            if ($co && !array_key_exists('stream', $co) || ($co && $co['stream'] === null && str_starts_with(ltrim($co['dict']), '['))) {
+                if (preg_match_all('~(\d+)\s+0\s+R~', (string)$co['dict'], $sub)) foreach ($sub[1] as $sc) { $so = tmp_obj($pdf, (int)$sc); $content .= ($so['stream'] ?? '') . "\n"; }
+                continue;
+            }
+            $content .= ($co['stream'] ?? '') . "\n";
+        }
     }
     if ($content === '') return [];
     $re = '~(?<s>\((?:[^()\\\\]++|\\\\.|(?&s))*\))|<<|>>|<[0-9A-Fa-f\s]*>|\[|\]|/[^\s/\[\]()<>{}%]*|[-+]?(?:\d+\.?\d*|\.\d+)|[A-Za-z\'"*][A-Za-z0-9*]*|%[^\r\n]*~s';
