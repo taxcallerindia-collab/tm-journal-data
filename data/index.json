@@ -1,0 +1,36 @@
+{
+    "journals": [
+        {
+            "no": 2283,
+            "date": "19/10/2026",
+            "marks": 5206,
+            "logos": 5922,
+            "pages": 11879,
+            "files": 13,
+            "errors": [],
+            "csv": "journals/2283.csv.gz",
+            "bytes": 465859,
+            "done_at": "2026-10-25T07:01:36+00:00"
+        },
+        {
+            "no": 2282,
+            "date": "12/10/2026",
+            "marks": 2054,
+            "logos": 3268,
+            "pages": 5694,
+            "files": 7,
+            "errors": [],
+            "csv": "journals/2282.csv.gz",
+            "bytes": 187542,
+            "done_at": "2026-10-25T07:08:34+00:00"
+        }
+    ],
+    "first": 2283,
+    "last_check": "2026-10-25T06:45:46+00:00",
+    "last_error": "Journal 2281: Class 1-9.pdf: no marks recognised (layout may have changed) (2026-10-25 07:16 UTC)",
+    "latest_on_ipindia": {
+        "no": 2283,
+        "date": "19/10/2026",
+        "files": 13
+    }
+}
