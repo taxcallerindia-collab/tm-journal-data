@@ -10,13 +10,14 @@
 declare(strict_types=1);
 require __DIR__ . '/pdf.php';
 require __DIR__ . '/parse.php';
+require __DIR__ . '/ocr.php';
 
 const HOST = 'https://search.ipindia.gov.in';
 const LIST_URL = HOST . '/IPOJournal/Journal/Trademark';
 const VIEW_URL = HOST . '/IPOJournal/Journal/ViewJournal';
-const BACK = 26;                 // also import the 26 journals before the first one seen (about 6 months)
-const MAX_JOURNALS = 3;          // per run
-const TIME_LIMIT = 5 * 3600;     // GitHub allows 6 hours per job
+const BACK = 104;                // also import the 104 journals before the first one seen (about 2 years)
+const MAX_JOURNALS = 8;          // per run (stops earlier at TIME_LIMIT)
+const TIME_LIMIT = 4 * 3600;     // GitHub allows 6 hours per job; a journal takes up to ~1 hour
 
 $root = dirname(__DIR__);
 $dataDir = $root . '/data';
@@ -103,12 +104,17 @@ function read_pdf(string $file, int $maxPages = 0): array
         if ($maxPages && $i >= $maxPages) break;
         try { $cells = tmp_page_cells($pdf, $pg); } catch (Throwable) { continue; }
         $r = tmj_record($cells);
+        if ($r && !$r['name_pending'] && ($r['name'] === '' || !preg_match('~[\p{L}\p{N}]~u', $r['name']))) {
+            $ocr = tmo_read_logo($pdf, $pg, $r['name_y']);
+            if ($ocr !== '') { $r['name'] = $ocr; $r['name_from'] = 'logo'; }
+        }
         if ($r) {
             $flush($pending);
             $pending = $r['name_pending'] ? $r : null;
             if (!$r['name_pending']) $flush($r);
         } elseif ($pending) {
             $pending['name'] = tmj_continuation($cells);
+            if ($pending['name'] === '') { $ocr = tmo_read_logo($pdf, $pg, null); if ($ocr !== '') { $pending['name'] = $ocr; $pending['name_from'] = 'logo'; } }
             $flush($pending);
             $pending = null;
         }
@@ -149,8 +155,10 @@ if ($debug) {
         foreach ($pages as $i => $pg) {
             $cells = tmp_page_cells($pdf, $pg); $r = tmj_record($cells);
             $isLogo = $r && ($r['name'] === '' && !$r['name_pending']);
-            if ($i < 14 || ($isLogo && $logoShown++ < 6)) {
-                $out .= "--- page " . ($i + 1) . ($r ? ' record ' . json_encode(['app' => $r['app_no'], 'name' => $r['name'], 'class' => $r['class'], 'pending' => $r['name_pending']]) : ' no record') . "\n";
+            if ($isLogo) { $r['ocr'] = tmo_read_logo($pdf, $pg, $r['name_y']); $r['imgs'] = $pdf['imgs']; }
+            if ($i < 14 || ($isLogo && $logoShown++ < 25)) {
+                $out .= ($i >= 14 && !$isLogo) ? '' : '';
+                $out .= "--- page " . ($i + 1) . ($r ? ' record ' . json_encode(['app' => $r['app_no'], 'name' => $r['name'], 'class' => $r['class'], 'pending' => $r['name_pending'], 'ocr' => $r['ocr'] ?? null, 'imgs' => $r['imgs'] ?? null]) : ' no record') . "\n";
                 foreach ($cells as $c) $out .= sprintf("%6.1f %6.1f %s\n", $c['y'], $c['x0'], mb_substr($c['t'], 0, 140));
             }
             if ($i > 400) break;
@@ -203,9 +211,9 @@ foreach (array_slice($todo, 0, MAX_JOURNALS) as $j) {
     $csv = 'journals/' . $j['no'] . '.csv.gz';
     $gz = gzopen($dataDir . '/' . $csv, 'wb9');
     $out = fopen('php://memory', 'w+');
-    fputcsv($out, ['app_no', 'name', 'class', 'applicant', 'goods', 'filed_on', 'journal_no', 'journal_date', 'used_since', 'jurisdiction'], ',', '"', '');
+    fputcsv($out, ['app_no', 'name', 'class', 'applicant', 'goods', 'filed_on', 'journal_no', 'journal_date', 'used_since', 'jurisdiction', 'name_from'], ',', '"', '');
     foreach ($all as $r) fputcsv($out, [$r['app_no'], $r['name'], $r['class'], mb_substr($r['applicant'], 0, 250), mb_substr($r['goods'], 0, 600), $r['filed_on'],
-        $r['journal'] ?: (string)$j['no'], $j['date'], mb_substr($r['used'], 0, 60), mb_substr($r['juris'], 0, 40)], ',', '"', '');
+        $r['journal'] ?: (string)$j['no'], $j['date'], mb_substr($r['used'], 0, 60), mb_substr($r['juris'], 0, 40), $r['name_from'] ?? 'text'], ',', '"', '');
     rewind($out);
     gzwrite($gz, (string)stream_get_contents($out));
     gzclose($gz); fclose($out);

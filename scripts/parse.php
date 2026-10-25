@@ -25,7 +25,7 @@ function tmj_record(array $cells, float $width = 595.0): ?array
     $txt = tmp_cells_text($cells);
     if (!preg_match('~Application\s*Number\s*:?\s*(\d{4,9})~i', $txt, $m)) return null;
     $r = ['app_no' => $m[1], 'journal' => preg_match('~Journal\s*Number\s*:?\s*(\d{3,5})~i', $txt, $j) ? $j[1] : '', 'filed_on' => '',
-        'name' => '', 'class' => '', 'applicant' => '', 'goods' => '', 'address' => '', 'used' => '', 'type' => '', 'juris' => '', 'name_pending' => false];
+        'name' => '', 'class' => '', 'applicant' => '', 'goods' => '', 'address' => '', 'used' => '', 'type' => '', 'juris' => '', 'name_pending' => false, 'name_y' => null];
     if (preg_match('~\b(\d{2})-(\d{2})-(\d{4})\b~', $txt, $d)) $r['filed_on'] = $d[3] . '-' . $d[2] . '-' . $d[1];
 
     $top = null;
@@ -87,7 +87,8 @@ function tmj_record(array $cells, float $width = 595.0): ?array
         $vals = [];
         foreach ($body as $c) if ($c['y'] < $nameAt - 1) $vals[] = $c['t'];
         $r['name'] = implode(' ', $vals);
-        $r['name_pending'] = trim($r['name']) === '' && $nameAt < 140; // label at the foot of the page: the mark is on the next page
+        $r['name_pending'] = trim($r['name']) === '' && $nameAt < 140;
+        $r['name_y'] = $nameAt; // label at the foot of the page: the mark is on the next page
     }
     $r['class'] = preg_match('~(\d{1,2})~', $r['class'], $cm) ? $cm[1] : '';
     $r['name'] = mb_substr(trim((string)preg_replace('~\s+~u', ' ', $r['name'])), 0, 190);

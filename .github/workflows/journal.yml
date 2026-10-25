@@ -2,7 +2,7 @@ name: Trade Marks Journal
 
 on:
   schedule:
-    - cron: '17 21 * * *'   # every day 02:47 IST; new journals come out weekly
+    - cron: '17 3,9,15,21 * * *'   # 4 times a day (02:47, 08:47, 14:47, 20:47 IST) until the 2-year backlog is read; then only new journals
   workflow_dispatch:
     inputs:
       test:
@@ -27,8 +27,10 @@ jobs:
     timeout-minutes: 340
     steps:
       - uses: actions/checkout@v5
-      - name: PHP version
-        run: php -v && php -m | grep -E -i 'curl|mbstring|zlib'
+      - name: PHP and OCR
+        run: |
+          php -v && php -m | grep -E -i 'curl|mbstring|zlib'
+          sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr >/dev/null && tesseract --version | head -1
       - name: Test IP India access
         if: ${{ inputs.test }}
         run: php scripts/run.php --test

@@ -87,7 +87,7 @@ function tmp_obj(array &$pdf, int $n, bool $withStream = true): ?array
         fseek($pdf['fh'], $dataAt);
         $raw = (string)fread($pdf['fh'], $len);
         if (preg_match('~/Filter\s*(?:\[\s*)?/(\w+)~', $dict, $fm)) {
-            if ($fm[1] !== 'FlateDecode') return $r + ['stream' => null];
+            if ($fm[1] !== 'FlateDecode') return $r + ['stream' => null, 'raw' => $raw, 'filter' => $fm[1]];
             $orig = $raw;
             $raw = @gzuncompress($orig);
             if ($raw === false) $raw = @gzinflate(substr($orig, 2));
@@ -223,6 +223,7 @@ function tmp_decode(array $f, string $bytes): array
 /** Text cells of one page: [y, x0, x1, text, size] in page space (y grows upwards). */
 function tmp_page_cells(array &$pdf, int $page): array
 {
+    $pdf['imgs'] = [];
     $po = tmp_obj($pdf, $page, false);
     if (!$po) return [];
     $d = $po['dict'];
@@ -301,6 +302,7 @@ function tmp_page_cells(array &$pdf, int $page): array
                 }
                 break;
             case 'BI': $skipUntilEI = true; break;
+            case 'Do': $nm = ltrim((string)end($stack), '/'); $pdf['imgs'][] = ['name' => $nm, 'x' => $ctm[4], 'top' => max($ctm[5], $ctm[5] + $ctm[3]), 'w' => hypot($ctm[0], $ctm[1]), 'h' => hypot($ctm[2], $ctm[3])]; break;
         }
         $stack = [];
     }
