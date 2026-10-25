@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 340
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: PHP version
         run: php -v && php -m | grep -E -i 'curl|mbstring|zlib'
       - name: Test IP India access

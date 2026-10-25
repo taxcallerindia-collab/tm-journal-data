@@ -27,7 +27,11 @@ $index += ['journals' => [], 'first' => 0, 'last_check' => '', 'last_error' => '
 $test = in_array('--test', $argv, true);
 $t0 = time();
 
-function say(string $s): void { echo '[' . gmdate('H:i:s') . '] ' . $s . "\n"; }
+function say(string $s, bool $note = false): void
+{
+    echo '[' . gmdate('H:i:s') . '] ' . $s . "\n";
+    if ($note && getenv('GITHUB_ACTIONS')) echo '::notice::' . str_replace(["\r", "\n", '%'], [' ', ' ', '%25'], $s) . "\n"; // shows in the run summary
+}
 
 function http(string $url, array $opt = []): array
 {
@@ -125,21 +129,21 @@ try {
 } catch (Throwable $e) {
     $index['last_error'] = $e->getMessage() . ' (' . gmdate('Y-m-d H:i') . ' UTC)';
     save_index($indexFile, $index);
-    say('ERROR ' . $e->getMessage());
+    say('ERROR ' . $e->getMessage(), true);
     exit($test ? 1 : 0);
 }
 $index['latest_on_ipindia'] = ['no' => $list[0]['no'], 'date' => $list[0]['date'], 'files' => count($list[0]['files'])];
-say('IP India reachable. Latest journal ' . $list[0]['no'] . ' (' . $list[0]['date'] . '), ' . count($list[0]['files']) . ' PDF files, ' . count($list) . ' journals listed');
+say('IP India reachable. Latest journal ' . $list[0]['no'] . ' (' . $list[0]['date'] . '), ' . count($list[0]['files']) . ' PDF files, ' . count($list) . ' journals listed', true);
 
 if ($test) {
     $tmp = sys_get_temp_dir() . '/tmj-test.pdf';
     $t = microtime(true);
     $err = download($list[0]['files'][0], $tmp);
-    if ($err !== '') { say('ERROR ' . $err); exit(1); }
-    say('Downloaded ' . basename(str_replace('\\', '/', $list[0]['files'][0])) . ': ' . round(filesize($tmp) / 1048576, 1) . ' MB in ' . round(microtime(true) - $t) . 's');
+    if ($err !== '') { say('ERROR ' . $err, true); exit(1); }
+    say('Downloaded ' . basename(str_replace('\\', '/', $list[0]['files'][0])) . ': ' . round(filesize($tmp) / 1048576, 1) . ' MB in ' . round(microtime(true) - $t) . 's', true);
     [$rows, $logos, $pages] = read_pdf($tmp, 40);
-    say("Read 40 of $pages pages: " . count($rows) . " word marks, $logos logo-only marks");
-    foreach (array_slice($rows, 0, 8) as $r) say('  ' . $r['app_no'] . ' | ' . $r['name'] . ' | class ' . $r['class'] . ' | ' . mb_substr($r['applicant'], 0, 40));
+    say("Read 40 of $pages pages: " . count($rows) . " word marks, $logos logo-only marks", true);
+    foreach (array_slice($rows, 0, 6) as $r) say($r['app_no'] . ' | ' . $r['name'] . ' | class ' . $r['class'] . ' | ' . mb_substr($r['applicant'], 0, 40) . ' | ' . mb_substr($r['goods'], 0, 60), true);
     @unlink($tmp);
     exit(0);
 }
@@ -181,7 +185,7 @@ foreach (array_slice($todo, 0, MAX_JOURNALS) as $j) {
     $index['journals'][] = ['no' => $j['no'], 'date' => $j['date'], 'marks' => count($all), 'logos' => $logos, 'pages' => $pagesTotal, 'files' => count($j['files']),
         'errors' => $fileErr, 'csv' => $csv, 'bytes' => filesize($dataDir . '/' . $csv), 'done_at' => gmdate('c')];
     save_index($indexFile, $index);
-    say('  saved ' . count($all) . " marks to $csv");
+    say('Journal ' . $j['no'] . ': saved ' . count($all) . " word marks, $logos logo-only" . ($fileErr ? ', problems: ' . implode('; ', $fileErr) : ''), true);
 }
 $index['last_error'] = $errors ? implode('; ', $errors) . ' (' . gmdate('Y-m-d H:i') . ' UTC)' : '';
 save_index($indexFile, $index);
