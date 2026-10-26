@@ -1441,6 +1441,20 @@
             "csv": "journals/2182.csv.gz",
             "bytes": 274293,
             "done_at": "2026-10-26T22:39:03+00:00"
+        },
+        {
+            "no": 2181,
+            "rev": 4,
+            "date": "04/11/2024",
+            "marks": 2873,
+            "logos": 308,
+            "logo_names": 1614,
+            "pages": 3306,
+            "files": 3,
+            "errors": [],
+            "csv": "journals/2181.csv.gz",
+            "bytes": 432547,
+            "done_at": "2026-10-26T22:49:41+00:00"
         }
     ],
     "first": 2283,
