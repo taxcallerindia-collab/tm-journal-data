@@ -1007,10 +1007,24 @@
             "csv": "journals/2213.csv.gz",
             "bytes": 289073,
             "done_at": "2026-10-26T11:48:27+00:00"
+        },
+        {
+            "no": 2212,
+            "rev": 4,
+            "date": "09/06/2025",
+            "marks": 2552,
+            "logos": 285,
+            "logo_names": 1421,
+            "pages": 2960,
+            "files": 3,
+            "errors": [],
+            "csv": "journals/2212.csv.gz",
+            "bytes": 401800,
+            "done_at": "2026-10-26T15:23:38+00:00"
         }
     ],
     "first": 2283,
-    "last_check": "2026-10-26T09:53:34+00:00",
+    "last_check": "2026-10-26T15:12:49+00:00",
     "last_error": "",
     "latest_on_ipindia": {
         "no": 2284,
