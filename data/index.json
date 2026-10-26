@@ -895,6 +895,20 @@
             "csv": "journals/2221.csv.gz",
             "bytes": 435361,
             "done_at": "2026-10-26T10:37:40+00:00"
+        },
+        {
+            "no": 2220,
+            "rev": 4,
+            "date": "04/08/2025",
+            "marks": 3321,
+            "logos": 364,
+            "logo_names": 1851,
+            "pages": 3825,
+            "files": 3,
+            "errors": [],
+            "csv": "journals/2220.csv.gz",
+            "bytes": 523357,
+            "done_at": "2026-10-26T10:47:06+00:00"
         }
     ],
     "first": 2283,
