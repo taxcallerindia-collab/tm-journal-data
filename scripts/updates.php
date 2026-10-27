@@ -43,6 +43,7 @@ function kind(string $title, string $cat): string
 
 $errors = [];
 $notices = [];
+$rowsRead = 0;
 foreach (['https://ipindia.gov.in/dynamic/news-updates?month=0&category=0', 'https://ipindia.gov.in/dynamic/news-updates-archived?month=0&category=0',
           'https://ipindia.gov.in/dynamic/news-updates-archived?month=0&category=3'] as $u) {
     [$c, $html, $e] = get($u);
@@ -52,6 +53,7 @@ foreach (['https://ipindia.gov.in/dynamic/news-updates?month=0&category=0', 'htt
         if (!preg_match_all('~<td\b[^>]*>(.*?)</td>~si', $r, $td) || count($td[1]) < 4) continue;
         $cat = clean($td[1][1]);
         if (!preg_match('~(\d{2})-(\d{2})-(\d{4})~', clean($td[1][2]), $d)) continue;
+        $rowsRead++;
         $title = clean($td[1][3]);
         if ($title === '' || ($k = kind($title, $cat)) === '') continue;
         $link = preg_match('~href="([^"]*news-details/\d+)"~i', $td[1][3] . ($td[1][5] ?? ''), $m) ? $m[1] : '';
@@ -61,6 +63,7 @@ foreach (['https://ipindia.gov.in/dynamic/news-updates?month=0&category=0', 'htt
         $notices[$key] = ['date' => "$d[3]-$d[2]-$d[1]", 'title' => mb_substr($title, 0, 300), 'kind' => $k, 'url' => $link, 'pdf' => $pdf, 'source' => 'IP India'];
     }
 }
+if ($rowsRead === 0 && !array_filter($errors, fn($e) => str_starts_with($e, 'IP India'))) $errors[] = 'IP India: no notices could be read (page layout may have changed)';
 usort($notices, fn($a, $b) => strcmp($b['date'], $a['date']));
 $notices = array_slice(array_values($notices), 0, 15);
 if (!$notices && !empty($old['notices'])) $notices = $old['notices']; // a failed read never empties the list
@@ -75,7 +78,11 @@ if ($c === 200 && preg_match('~edition_version_selector.*?</select>~si', $html, 
     if ($inForce !== '') $nice = ['in_force' => $inForce, 'upcoming' => $upcoming, 'versions' => array_slice($versions, 0, 6), 'url' => 'https://nclpub.wipo.int/enfr/'];
 } else $errors[] = "WIPO NCL: HTTP $c $e";
 
-$out = ['checked' => gmdate('c'), 'nice' => $nice, 'notices' => $notices, 'errors' => $errors];
+// "checked" moves only when both sources were read; "attempted" changes on every run.
+$ipOk = !array_filter($errors, fn($e) => str_starts_with($e, 'IP India')); $wipoOk = !array_filter($errors, fn($e) => str_starts_with($e, 'WIPO'));
+$out = ['checked' => ($ipOk && $wipoOk) ? gmdate('c') : ($old['checked'] ?? ''), 'attempted' => gmdate('c'),
+    'ok_ipindia' => $ipOk ? gmdate('c') : ($old['ok_ipindia'] ?? ''), 'ok_wipo' => $wipoOk ? gmdate('c') : ($old['ok_wipo'] ?? ''),
+    'nice' => $nice, 'notices' => $notices, 'errors' => $errors];
 $same = $old && json_encode([$old['nice'] ?? null, $old['notices'] ?? []]) === json_encode([$nice, $notices]);
 $out['changed'] = $same ? ($old['changed'] ?? gmdate('c')) : gmdate('c'); // date of the last real change
 file_put_contents($file, json_encode($out, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . "\n");
