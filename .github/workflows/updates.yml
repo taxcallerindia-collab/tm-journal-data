@@ -1,0 +1,29 @@
+name: Government updates
+
+on:
+  schedule:
+    - cron: '43 2 * * *'   # every day, 8:13 AM India time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: updates
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Read IP India notices and WIPO Nice versions
+        run: php scripts/updates.php
+      - name: Save
+        run: |
+          git config user.name "journal-robot"
+          git config user.email "journal-robot@users.noreply.github.com"
+          git add data/updates.json
+          git commit -m "Government updates $(date -u +%Y-%m-%d)" || echo "nothing new"
+          for i in 1 2 3; do git pull --rebase --quiet && git push && break; sleep 5; done
