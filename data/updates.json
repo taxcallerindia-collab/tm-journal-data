@@ -1,5 +1,5 @@
 {
-    "checked": "2026-10-27T18:12:40+00:00",
+    "checked": "2026-10-27T18:13:31+00:00",
     "nice": {
         "in_force": "13-2026",
         "upcoming": "13-2027",
@@ -47,14 +47,6 @@
             "source": "IP India"
         },
         {
-            "date": "2026-03-30",
-            "title": "Tentative Timeline for Trade Marks Agent Exam and Patents Agent Exam 2027",
-            "kind": "Notice",
-            "url": "https://ipindia.gov.in/dynamic/news-details/61",
-            "pdf": "https://ipindia.gov.in/storage/uploads/others/ndmooCl4D24X6DUMFBNRrEOrUZrdFJw6eAIKUXuz.pdf",
-            "source": "IP India"
-        },
-        {
             "date": "2026-02-24",
             "title": "Public Notice: Shifting of Well-Known Trade Marks Section to New Delhi",
             "kind": "Well-known marks",
@@ -64,5 +56,5 @@
         }
     ],
     "errors": [],
-    "changed": "2026-10-27T18:12:40+00:00"
+    "changed": "2026-10-27T18:13:31+00:00"
 }
