@@ -28,7 +28,7 @@ function clean(string $s): string { return trim((string)preg_replace('~\s+~u', '
 function kind(string $title, string $cat): string
 {
     $t = mb_strtolower($title);
-    if (preg_match('~quotation|tender|recruit|vacanc|kavi|pratiyogita|hindi|logo|examination result|pae|tae|hearing|adjourn|holiday|closure of office~', $t)) return '';
+    if (preg_match('~quotation|tender|recruit|vacanc|kavi|pratiyogita|hindi|logo|agent examination|examination result|examination 20[0-9][0-9]|\\bpae\\b|\\btae\\b|hearing|adjourn|holiday|closure of office|closing of|capacity|training|workshop|seminar|webinar|award|intern|quiz|competition|hackathon|survey|thali|e-?kyc~', $t)) return '';
     $tm = stripos($cat, 'trade') !== false || preg_match('~trade ?marks?|\btm\b|nice classification|well[- ]known~', $t);
     if (!$tm) return '';
     if (preg_match('~nice|classif|\bclass(es)?\b~', $t)) return 'Classification';
