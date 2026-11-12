@@ -1,8 +1,8 @@
 {
-    "checked": "2026-11-11T03:30:29+00:00",
-    "attempted": "2026-11-11T03:30:29+00:00",
-    "ok_ipindia": "2026-11-11T03:30:29+00:00",
-    "ok_wipo": "2026-11-11T03:30:29+00:00",
+    "checked": "2026-11-12T03:29:27+00:00",
+    "attempted": "2026-11-12T03:29:27+00:00",
+    "ok_ipindia": "2026-11-12T03:29:27+00:00",
+    "ok_wipo": "2026-11-12T03:29:27+00:00",
     "nice": {
         "in_force": "13-2026",
         "upcoming": "13-2027",
@@ -17,6 +17,14 @@
         "url": "https://nclpub.wipo.int/enfr/"
     },
     "notices": [
+        {
+            "date": "2026-11-11",
+            "title": "Introduction of Weekly Open House Sessions for Startups by the Office of the Controller General of Patents, Designs and Trade Marks.",
+            "kind": "Notice",
+            "url": "https://ipindia.gov.in/dynamic/news-details/158",
+            "pdf": "https://ipindia.gov.in/storage/uploads/others/he2WXiJmJ5WhmahQZrIE2Ss3wOLW8o7dyDaHeLGv.pdf",
+            "source": "IP India"
+        },
         {
             "date": "2026-10-22",
             "title": "Refund of Fee in Case of Duplicate Payments in Trademark Applications",
@@ -59,5 +67,5 @@
         }
     ],
     "errors": [],
-    "changed": "2026-10-27T18:13:31+00:00"
+    "changed": "2026-11-12T03:29:27+00:00"
 }
