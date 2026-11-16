@@ -1,6 +1,20 @@
 {
     "journals": [
         {
+            "no": 2287,
+            "rev": 4,
+            "date": "16/11/2026",
+            "marks": 4774,
+            "logos": 704,
+            "logo_names": 2581,
+            "pages": 5901,
+            "files": 6,
+            "errors": [],
+            "csv": "journals/2287.csv.gz",
+            "bytes": 635896,
+            "done_at": "2026-11-16T06:39:33+00:00"
+        },
+        {
             "no": 2286,
             "rev": 4,
             "date": "09/11/2026",
@@ -1514,11 +1528,11 @@
         }
     ],
     "first": 2283,
-    "last_check": "2026-11-16T02:25:28+00:00",
+    "last_check": "2026-11-16T06:27:11+00:00",
     "last_error": "",
     "latest_on_ipindia": {
-        "no": 2286,
-        "date": "09/11/2026",
+        "no": 2287,
+        "date": "16/11/2026",
         "files": 6
     }
 }
