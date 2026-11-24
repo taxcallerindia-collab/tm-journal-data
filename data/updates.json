@@ -1,8 +1,8 @@
 {
-    "checked": "2026-11-22T03:31:40+00:00",
-    "attempted": "2026-11-23T03:40:01+00:00",
-    "ok_ipindia": "2026-11-22T03:31:40+00:00",
-    "ok_wipo": "2026-11-23T03:40:01+00:00",
+    "checked": "2026-11-24T03:35:09+00:00",
+    "attempted": "2026-11-24T03:35:09+00:00",
+    "ok_ipindia": "2026-11-24T03:35:09+00:00",
+    "ok_wipo": "2026-11-24T03:35:09+00:00",
     "nice": {
         "in_force": "13-2026",
         "upcoming": "13-2027",
@@ -26,10 +26,6 @@
             "source": "IP India"
         }
     ],
-    "errors": [
-        "IP India https://ipindia.gov.in/dynamic/news-updates?month=0&category=0: HTTP 504 ",
-        "IP India https://ipindia.gov.in/dynamic/news-updates-archived?month=0&category=0: HTTP 504 ",
-        "IP India https://ipindia.gov.in/dynamic/news-updates-archived?month=0&category=3: HTTP 504 "
-    ],
+    "errors": [],
     "changed": "2026-11-15T03:29:08+00:00"
 }
